@@ -412,6 +412,46 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for required checks and [`SECURITY.md`]
 
 ThirdWatch is demonstration software, not accounting, tax, legal, investment, banking, or regulatory advice. Synthetic-data accuracy does not establish suitability for production data. Operators remain responsible for validating matching rules, investigating exceptions, protecting records, obtaining approvals, and independently verifying financial outcomes before posting entries or moving funds.
 
----
+## 32. Dependencies
 
+### Tooling Requirements
+
+- **Node.js** (`>=24.19.0 <25`) — JavaScript runtime required to build and run ThirdWatch.
+- **pnpm** (`11.19.0`) — Package manager used for reproducible dependency installation and project scripts.
+- **TypeScript** (`^5.9.0`) — Typed language and compiler used across the backend and frontend.
+- **Vite** (`^8.2.2`) — Frontend development server and production build tool.
+
+### Runtime Dependencies
+
+- **`@anthropic-ai/sdk`** (`^0.122.0`) — Anthropic API and AI model integration for AI-assisted finance operations.
+- **`dotenv`** (`^17.4.2`) — Loads environment variables and configuration from `.env`.
+- **`express`** (`^5.2.1`) — Backend HTTP server and API framework.
+- **`lucide-react`** (`^1.37.0`) — Icon library used by the React interface.
+- **`react`** (`^19.2.8`) — Frontend UI framework.
+- **`react-dom`** (`^19.2.8`) — React rendering for the web application.
+- **`recharts`** (`^3.10.1`) — Charts and financial data visualizations.
+- **`zod`** (`^4.5.4`) — Runtime schema validation for structured inputs and data.
+
+### Development Dependencies
+
+- **`@tailwindcss/vite`** (`^4.3.3`) — Integrates Tailwind CSS with the Vite build pipeline.
+- **`@testing-library/jest-dom`** (`^7.0.1`) — Adds DOM-specific assertions for frontend tests.
+- **`@testing-library/react`** (`^16.3.3`) — Provides utilities for testing React components through user-visible behavior.
+- **`@testing-library/user-event`** (`^14.6.6`) — Simulates realistic user interactions in frontend tests.
+- **`@types/express`** (`^5.0.6`) — TypeScript declarations for Express.
+- **`@types/jest`** (`^29.5.14`) — TypeScript declarations for Jest.
+- **`@types/node`** (`^24.0.0`) — TypeScript declarations for Node.js APIs.
+- **`@types/react`** (`^19.2.18`) — TypeScript declarations for React.
+- **`@types/react-dom`** (`^19.2.5`) — TypeScript declarations for React DOM.
+- **`@types/supertest`** (`^7.2.1`) — TypeScript declarations for Supertest.
+- **`@vitejs/plugin-react`** (`^6.1.1`) — Adds React and Fast Refresh support to Vite.
+- **`jest`** (`^29.7.0`) — Test runner for backend and unit tests.
+- **`jsdom`** (`^30.0.1`) — Browser-like DOM environment for JavaScript tests.
+- **`supertest`** (`^7.2.2`) — Tests Express HTTP endpoints without a live external server.
+- **`tailwindcss`** (`^4.3.3`) — Utility-first CSS framework used by the frontend.
+- **`ts-jest`** (`^29.4.0`) — Compiles TypeScript test files for Jest.
+- **`typescript`** (`^5.9.0`) — Provides static typing and TypeScript compilation.
+- **`vite`** (`^8.2.2`) — Builds and serves the frontend application.
+- **`vitest`** (`^4.1.11`) — Vite-native test runner for frontend tests.
+  
 **AUTOMATE THE OBVIOUS. MEASURE THE UNCERTAIN. ESCALATE THE EXCEPTIONS. AUDIT EVERYTHING.**
