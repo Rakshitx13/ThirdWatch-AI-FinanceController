@@ -75,6 +75,10 @@ Express API → React finance-operations dashboard
 
 See [`ARCHITECTURE.md`](ARCHITECTURE.md) for scoring, precedence, trust boundaries, and component details.
 
+![Image 2](https://github.com/Rakshitx13/ThirdWatch-AI-FinanceController/blob/80564104e88968b1dced0980f959308a226d3fdd/Image2.jpeg)
+
+*Figure 2: ThirdWatch reconciliation workflow showing transaction matching and exception handling.*
+
 ## 5. Data sources
 
 Source A, [`data/merchant_ledger.csv`](data/merchant_ledger.csv), contains:
@@ -182,6 +186,10 @@ records_per_second
 ```
 
 Frontend rendering, human interaction, file generation, and arbitrary waits are excluded. Throughput uses deterministic processing time only.
+
+![Image 3](https://github.com/Rakshitx13/ThirdWatch-AI-FinanceController/blob/80564104e88968b1dced0980f959308a226d3fdd/Image3.jpeg)
+
+*Figure 3: ThirdWatch reconciliation results and financial analytics.*
 
 ## 13. Installation
 
