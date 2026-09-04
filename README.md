@@ -4,6 +4,9 @@ Run the books and the cash position.
 
 A deterministic + AI-assisted reconciliation agent for merchant ledger vs payment settlement data.
 
+![Image1](https://github.com/Rakshitx13/ThirdWatch-AI-FinanceController/blob/6de34da0d195ff3db95afed3583df86a5f2aa67f/Image1.jpeg)
+*Figure 1: ThirdWatch dashboard and overall finance-controller interface.*
+
 ## Latest measured run
 
 This is the actual output of `SEED=42`, `BATCH_SIZE=100`, and `pnpm run demo` on 31 August 2026. The values come from [`data/summary.json`](data/summary.json); they are not presentation fixtures.
