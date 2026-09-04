@@ -1,0 +1,732 @@
+[
+  {
+    "orderId": "ORD1001",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031KG",
+      "pay_00031N1",
+      "pay_00031N2"
+    ],
+    "selectedPaymentId": "pay_00031KG",
+    "selectedUtr": "UTR000008GCSG",
+    "expectedSettlement": 1576.18,
+    "actualSettlement": 1576.18,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ]
+  },
+  {
+    "orderId": "ORD1004",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIO is associated with multiple orders: ORD1004, ORD1069. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031KJ",
+      "pay_00031M3",
+      "pay_00031LK",
+      "pay_00031MU"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIO",
+    "expectedSettlement": null,
+    "actualSettlement": 7438.48,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ]
+  },
+  {
+    "orderId": "ORD1005",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3481.84, actual ₹3485.13, wider-tolerance difference ₹3.29.",
+    "candidateIds": [
+      "pay_00031KK",
+      "pay_00031L8",
+      "pay_00031KV"
+    ],
+    "selectedPaymentId": "pay_00031KK",
+    "selectedUtr": "UTR000008GCSK",
+    "expectedSettlement": 3481.84,
+    "actualSettlement": 3485.13,
+    "amountDifference": 3.29,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1011",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹7392.07, actual ₹7092.07, shortfall ₹300.00.",
+    "candidateIds": [
+      "pay_00031KQ",
+      "pay_00031M3",
+      "pay_00031LK"
+    ],
+    "selectedPaymentId": "pay_00031KQ",
+    "selectedUtr": "UTR000008GCSQ",
+    "expectedSettlement": 7392.07,
+    "actualSettlement": 7092.07,
+    "amountDifference": -300,
+    "unexplainedShortfall": 300,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  },
+  {
+    "orderId": "ORD1012",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1588.26, actual ₹1585.23, wider-tolerance difference ₹3.03.",
+    "candidateIds": [
+      "pay_00031KR"
+    ],
+    "selectedPaymentId": "pay_00031KR",
+    "selectedUtr": "UTR000008GCSR",
+    "expectedSettlement": 1588.26,
+    "actualSettlement": 1585.23,
+    "amountDifference": -3.03,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1013",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹4919.20, actual ₹4709.20, shortfall ₹210.00.",
+    "candidateIds": [
+      "pay_00031KS",
+      "pay_00031LW"
+    ],
+    "selectedPaymentId": "pay_00031KS",
+    "selectedUtr": "UTR000008GCSS",
+    "expectedSettlement": 4919.2,
+    "actualSettlement": 4709.2,
+    "amountDifference": -210,
+    "unexplainedShortfall": 210,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  },
+  {
+    "orderId": "ORD1017",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3456.98, actual ₹3459.86, wider-tolerance difference ₹2.88.",
+    "candidateIds": [
+      "pay_00031KW",
+      "pay_00031L8",
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": "pay_00031KW",
+    "selectedUtr": "UTR000008GCSW",
+    "expectedSettlement": 3456.98,
+    "actualSettlement": 3459.86,
+    "amountDifference": 2.88,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1021",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1979.01, actual ₹1983.23, wider-tolerance difference ₹4.22.",
+    "candidateIds": [
+      "pay_00031L0"
+    ],
+    "selectedPaymentId": "pay_00031L0",
+    "selectedUtr": "UTR000008GCT0",
+    "expectedSettlement": 1979.01,
+    "actualSettlement": 1983.23,
+    "amountDifference": 4.22,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1026",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031L5",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031L5",
+    "selectedUtr": "UTR000008GCT5",
+    "expectedSettlement": 9861.2,
+    "actualSettlement": 9861.2,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ]
+  },
+  {
+    "orderId": "ORD1028",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹7411.69, actual ₹7071.69, shortfall ₹340.00.",
+    "candidateIds": [
+      "pay_00031L7",
+      "pay_00031M3",
+      "pay_00031KJ",
+      "pay_00031LK"
+    ],
+    "selectedPaymentId": "pay_00031L7",
+    "selectedUtr": "UTR000008GCT7",
+    "expectedSettlement": 7411.69,
+    "actualSettlement": 7071.69,
+    "amountDifference": -340,
+    "unexplainedShortfall": 340,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  },
+  {
+    "orderId": "ORD1030",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹1577.95, actual ₹1297.95, shortfall ₹280.00.",
+    "candidateIds": [
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": "pay_00031L9",
+    "selectedUtr": "UTR000008GCT9",
+    "expectedSettlement": 1577.95,
+    "actualSettlement": 1297.95,
+    "amountDifference": -280,
+    "unexplainedShortfall": 280,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  },
+  {
+    "orderId": "ORD1032",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031LB"
+    ],
+    "selectedPaymentId": "pay_00031LB",
+    "selectedUtr": "UTR000008GCTB",
+    "expectedSettlement": 296.46,
+    "actualSettlement": 296.46,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ]
+  },
+  {
+    "orderId": "ORD1036",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1036. Order amount: ₹1299.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-03–2026-08-07. 0 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ]
+  },
+  {
+    "orderId": "ORD1038",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹4907.44, actual ₹4905.61, wider-tolerance difference ₹1.83.",
+    "candidateIds": [
+      "pay_00031LH"
+    ],
+    "selectedPaymentId": "pay_00031LH",
+    "selectedUtr": "UTR000008GCTH",
+    "expectedSettlement": 4907.44,
+    "actualSettlement": 4905.61,
+    "amountDifference": -1.83,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1039",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹795.19, actual ₹798.28, wider-tolerance difference ₹3.09.",
+    "candidateIds": [
+      "pay_00031LI",
+      "pay_00031MY",
+      "pay_00031MD"
+    ],
+    "selectedPaymentId": "pay_00031LI",
+    "selectedUtr": "UTR000008GCTI",
+    "expectedSettlement": 795.19,
+    "actualSettlement": 798.28,
+    "amountDifference": 3.09,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1040",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹296.09, actual ₹292.04, wider-tolerance difference ₹4.05.",
+    "candidateIds": [
+      "pay_00031LJ"
+    ],
+    "selectedPaymentId": "pay_00031LJ",
+    "selectedUtr": "UTR000008GCTJ",
+    "expectedSettlement": 296.09,
+    "actualSettlement": 292.04,
+    "amountDifference": -4.05,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1046",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹294.59, actual ₹114.59, shortfall ₹180.00.",
+    "candidateIds": [
+      "pay_00031LP",
+      "pay_00031MR"
+    ],
+    "selectedPaymentId": "pay_00031LP",
+    "selectedUtr": "UTR000008GCTP",
+    "expectedSettlement": 294.59,
+    "actualSettlement": 114.59,
+    "amountDifference": -180,
+    "unexplainedShortfall": 180,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  },
+  {
+    "orderId": "ORD1047",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1047. Order amount: ₹3499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-17–2026-08-21. 2 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [
+      "pay_00031L8",
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ]
+  },
+  {
+    "orderId": "ORD1059",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3425.85, actual ₹3427.10, wider-tolerance difference ₹1.25.",
+    "candidateIds": [
+      "pay_00031M2",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031M2",
+    "selectedUtr": "UTR000008GCU2",
+    "expectedSettlement": 3425.85,
+    "actualSettlement": 3427.1,
+    "amountDifference": 1.25,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1064",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1281.55, actual ₹1278.51, wider-tolerance difference ₹3.04.",
+    "candidateIds": [
+      "pay_00031M7"
+    ],
+    "selectedPaymentId": "pay_00031M7",
+    "selectedUtr": "UTR000008GCU7",
+    "expectedSettlement": 1281.55,
+    "actualSettlement": 1278.51,
+    "amountDifference": -3.04,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1069",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIO is associated with multiple orders: ORD1004, ORD1069. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MC",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIO",
+    "expectedSettlement": null,
+    "actualSettlement": 7352.08,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ]
+  },
+  {
+    "orderId": "ORD1072",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹2445.45, actual ₹2443.64, wider-tolerance difference ₹1.81.",
+    "candidateIds": [
+      "pay_00031MF",
+      "pay_00031LZ",
+      "pay_00031M1"
+    ],
+    "selectedPaymentId": "pay_00031MF",
+    "selectedUtr": "UTR000008GCUF",
+    "expectedSettlement": 2445.45,
+    "actualSettlement": 2443.64,
+    "amountDifference": -1.81,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1073",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 4 working days.",
+    "candidateIds": [
+      "pay_00031MG",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031MG",
+    "selectedUtr": "UTR000008GCUG",
+    "expectedSettlement": 7396.23,
+    "actualSettlement": 7396.23,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 4,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ]
+  },
+  {
+    "orderId": "ORD1075",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1075. Order amount: ₹7499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-13–2026-08-19. 1 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ]
+  },
+  {
+    "orderId": "ORD1083",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIP is associated with multiple orders: ORD1083, ORD1086. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MQ"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIP",
+    "expectedSettlement": null,
+    "actualSettlement": 790.35,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ]
+  },
+  {
+    "orderId": "ORD1085",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1085. Order amount: ₹499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-17–2026-08-21. 0 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ]
+  },
+  {
+    "orderId": "ORD1086",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIP is associated with multiple orders: ORD1083, ORD1086. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MT",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIP",
+    "expectedSettlement": null,
+    "actualSettlement": 7462.86,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ]
+  },
+  {
+    "orderId": "ORD1089",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1288.77, actual ₹1289.91, wider-tolerance difference ₹1.14.",
+    "candidateIds": [
+      "pay_00031MW"
+    ],
+    "selectedPaymentId": "pay_00031MW",
+    "selectedUtr": "UTR000008GCUW",
+    "expectedSettlement": 1288.77,
+    "actualSettlement": 1289.91,
+    "amountDifference": 1.14,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1092",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹7434.90, actual ₹7433.48, wider-tolerance difference ₹1.42.",
+    "candidateIds": [
+      "pay_00031MZ",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031MZ",
+    "selectedUtr": "UTR000008GCUZ",
+    "expectedSettlement": 7434.9,
+    "actualSettlement": 7433.48,
+    "amountDifference": -1.42,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ]
+  },
+  {
+    "orderId": "ORD1098",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹3446.57, actual ₹3386.57, shortfall ₹60.00.",
+    "candidateIds": [
+      "pay_00031N5",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031N5",
+    "selectedUtr": "UTR000008GCV5",
+    "expectedSettlement": 3446.57,
+    "actualSettlement": 3386.57,
+    "amountDifference": -60,
+    "unexplainedShortfall": 60,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ]
+  }
+]

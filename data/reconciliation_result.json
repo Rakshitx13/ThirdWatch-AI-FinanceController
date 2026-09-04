@@ -1,0 +1,6050 @@
+[
+  {
+    "orderId": "ORD1001",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031KG",
+      "pay_00031N1",
+      "pay_00031N2"
+    ],
+    "selectedPaymentId": "pay_00031KG",
+    "selectedUtr": "UTR000008GCSG",
+    "expectedSettlement": 1576.18,
+    "actualSettlement": 1576.18,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1001",
+      "amount": 1599,
+      "order_date": "2026-08-03",
+      "customer_name": "Ira Mehta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KG",
+      "utr": "UTR000008GCSG",
+      "settled_amount": 1576.18,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 19.34,
+      "gst_on_fee": 3.48,
+      "linked_order_id": "ORD1001"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KG",
+        "utr": "UTR000008GCSG",
+        "settled_amount": 1576.18,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 19.34,
+        "gst_on_fee": 3.48,
+        "linked_order_id": "ORD1001"
+      },
+      {
+        "payment_id": "pay_00031N1",
+        "utr": "UTR000008GCV1",
+        "settled_amount": 1577.34,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 18.36,
+        "gst_on_fee": 3.3,
+        "linked_order_id": "ORD1094"
+      },
+      {
+        "payment_id": "pay_00031N2",
+        "utr": "UTR000008GCV2",
+        "settled_amount": 1582.01,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 14.4,
+        "gst_on_fee": 2.59,
+        "linked_order_id": "ORD1095"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1002",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1287.94, actual ₹1287.94, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KH",
+      "pay_00031MY",
+      "pay_00031LC"
+    ],
+    "selectedPaymentId": "pay_00031KH",
+    "selectedUtr": "UTR000008GCSH",
+    "expectedSettlement": 1287.94,
+    "actualSettlement": 1287.94,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1002",
+      "amount": 1299,
+      "order_date": "2026-08-14",
+      "customer_name": "Vivaan Patel",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KH",
+      "utr": "UTR000008GCSH",
+      "settled_amount": 1287.94,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 9.37,
+      "gst_on_fee": 1.69,
+      "linked_order_id": "ORD1002"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KH",
+        "utr": "UTR000008GCSH",
+        "settled_amount": 1287.94,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 9.37,
+        "gst_on_fee": 1.69,
+        "linked_order_id": "ORD1002"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031LC",
+        "utr": "UTR000008GCTC",
+        "settled_amount": 1291.97,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 5.96,
+        "gst_on_fee": 1.07,
+        "linked_order_id": "ORD1033"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1003",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹4939.45, actual ₹4939.45, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KI",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031KI",
+    "selectedUtr": "UTR000008GCSI",
+    "expectedSettlement": 4939.45,
+    "actualSettlement": 4939.45,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1003",
+      "amount": 4999,
+      "order_date": "2026-08-03",
+      "customer_name": "Rohan Iyer",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KI",
+      "utr": "UTR000008GCSI",
+      "settled_amount": 4939.45,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 50.47,
+      "gst_on_fee": 9.08,
+      "linked_order_id": "ORD1003"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KI",
+        "utr": "UTR000008GCSI",
+        "settled_amount": 4939.45,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 50.47,
+        "gst_on_fee": 9.08,
+        "linked_order_id": "ORD1003"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1004",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIO is associated with multiple orders: ORD1004, ORD1069. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031KJ",
+      "pay_00031M3",
+      "pay_00031LK",
+      "pay_00031MU"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIO",
+    "expectedSettlement": null,
+    "actualSettlement": 7438.48,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1004",
+      "amount": 7499,
+      "order_date": "2026-08-05",
+      "customer_name": "Riya Gupta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KJ",
+        "utr": "UTR00000SAIO",
+        "settled_amount": 7438.48,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 51.29,
+        "gst_on_fee": 9.23,
+        "linked_order_id": "ORD1004"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031LK",
+        "utr": "UTR000008GCTK",
+        "settled_amount": 7393.84,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 89.12,
+        "gst_on_fee": 16.04,
+        "linked_order_id": "ORD1041"
+      },
+      {
+        "payment_id": "pay_00031MU",
+        "utr": "UTR000008GCUU",
+        "settled_amount": 7370.34,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 109.03,
+        "gst_on_fee": 19.63,
+        "linked_order_id": "ORD1087"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1005",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3481.84, actual ₹3485.13, wider-tolerance difference ₹3.29.",
+    "candidateIds": [
+      "pay_00031KK",
+      "pay_00031L8",
+      "pay_00031KV"
+    ],
+    "selectedPaymentId": "pay_00031KK",
+    "selectedUtr": "UTR000008GCSK",
+    "expectedSettlement": 3481.84,
+    "actualSettlement": 3485.13,
+    "amountDifference": 3.29,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1005",
+      "amount": 3499,
+      "order_date": "2026-08-06",
+      "customer_name": "Vivaan Sharma",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KK",
+      "utr": "UTR000008GCSK",
+      "settled_amount": 3485.13,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 14.54,
+      "gst_on_fee": 2.62,
+      "linked_order_id": "ORD1005"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KK",
+        "utr": "UTR000008GCSK",
+        "settled_amount": 3485.13,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 14.54,
+        "gst_on_fee": 2.62,
+        "linked_order_id": "ORD1005"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031KV",
+        "utr": "UTR000008GCSV",
+        "settled_amount": 3479.67,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 16.38,
+        "gst_on_fee": 2.95,
+        "linked_order_id": "ORD1016"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1006",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹495.61, actual ₹495.61, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KL"
+    ],
+    "selectedPaymentId": "pay_00031KL",
+    "selectedUtr": "UTR000008GCSL",
+    "expectedSettlement": 495.61,
+    "actualSettlement": 495.61,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1006",
+      "amount": 499,
+      "order_date": "2026-08-12",
+      "customer_name": "Meera Iyer",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KL",
+      "utr": "UTR000008GCSL",
+      "settled_amount": 495.61,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 2.87,
+      "gst_on_fee": 0.52,
+      "linked_order_id": "ORD1006"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KL",
+        "utr": "UTR000008GCSL",
+        "settled_amount": 495.61,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 2.87,
+        "gst_on_fee": 0.52,
+        "linked_order_id": "ORD1006"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1007",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1278.07, actual ₹1278.07, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KM"
+    ],
+    "selectedPaymentId": "pay_00031KM",
+    "selectedUtr": "UTR000008GCSM",
+    "expectedSettlement": 1278.07,
+    "actualSettlement": 1278.07,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1007",
+      "amount": 1299,
+      "order_date": "2026-08-19",
+      "customer_name": "Meera Gupta",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KM",
+      "utr": "UTR000008GCSM",
+      "settled_amount": 1278.07,
+      "settlement_date": "2026-08-21",
+      "fee_deducted": 20.93,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1007"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KM",
+        "utr": "UTR000008GCSM",
+        "settled_amount": 1278.07,
+        "settlement_date": "2026-08-21",
+        "fee_deducted": 20.93,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1007"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1008",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹795.08, actual ₹795.08, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KN",
+      "pay_00031M8"
+    ],
+    "selectedPaymentId": "pay_00031KN",
+    "selectedUtr": "UTR000008GCSN",
+    "expectedSettlement": 795.08,
+    "actualSettlement": 795.08,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1008",
+      "amount": 799,
+      "order_date": "2026-08-07",
+      "customer_name": "Meera Kapoor",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KN",
+      "utr": "UTR000008GCSN",
+      "settled_amount": 795.08,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 3.32,
+      "gst_on_fee": 0.6,
+      "linked_order_id": "ORD1008"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KN",
+        "utr": "UTR000008GCSN",
+        "settled_amount": 795.08,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 3.32,
+        "gst_on_fee": 0.6,
+        "linked_order_id": "ORD1008"
+      },
+      {
+        "payment_id": "pay_00031M8",
+        "utr": "UTR000008GCU8",
+        "settled_amount": 789.74,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 7.85,
+        "gst_on_fee": 1.41,
+        "linked_order_id": "ORD1065"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1009",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹994.22, actual ₹994.22, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KO",
+      "pay_00031MY",
+      "pay_00031ME"
+    ],
+    "selectedPaymentId": "pay_00031KO",
+    "selectedUtr": "UTR000008GCSO",
+    "expectedSettlement": 994.22,
+    "actualSettlement": 994.22,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1009",
+      "amount": 999,
+      "order_date": "2026-08-07",
+      "customer_name": "Aarav Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KO",
+      "utr": "UTR000008GCSO",
+      "settled_amount": 994.22,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 4.05,
+      "gst_on_fee": 0.73,
+      "linked_order_id": "ORD1009"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KO",
+        "utr": "UTR000008GCSO",
+        "settled_amount": 994.22,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 4.05,
+        "gst_on_fee": 0.73,
+        "linked_order_id": "ORD1009"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031ME",
+        "utr": "UTR000008GCUE",
+        "settled_amount": 989.78,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.81,
+        "gst_on_fee": 1.41,
+        "linked_order_id": "ORD1071"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1010",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹3442.54, actual ₹3442.54, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KP",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031KP",
+    "selectedUtr": "UTR000008GCSP",
+    "expectedSettlement": 3442.54,
+    "actualSettlement": 3442.54,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1010",
+      "amount": 3499,
+      "order_date": "2026-08-18",
+      "customer_name": "Ananya Mehta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KP",
+      "utr": "UTR000008GCSP",
+      "settled_amount": 3442.54,
+      "settlement_date": "2026-08-20",
+      "fee_deducted": 47.85,
+      "gst_on_fee": 8.61,
+      "linked_order_id": "ORD1010"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KP",
+        "utr": "UTR000008GCSP",
+        "settled_amount": 3442.54,
+        "settlement_date": "2026-08-20",
+        "fee_deducted": 47.85,
+        "gst_on_fee": 8.61,
+        "linked_order_id": "ORD1010"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1011",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹7392.07, actual ₹7092.07, shortfall ₹300.00.",
+    "candidateIds": [
+      "pay_00031KQ",
+      "pay_00031M3",
+      "pay_00031LK"
+    ],
+    "selectedPaymentId": "pay_00031KQ",
+    "selectedUtr": "UTR000008GCSQ",
+    "expectedSettlement": 7392.07,
+    "actualSettlement": 7092.07,
+    "amountDifference": -300,
+    "unexplainedShortfall": 300,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1011",
+      "amount": 7499,
+      "order_date": "2026-08-04",
+      "customer_name": "Riya Joshi",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KQ",
+      "utr": "UTR000008GCSQ",
+      "settled_amount": 7092.07,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 90.62,
+      "gst_on_fee": 16.31,
+      "linked_order_id": "ORD1011"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KQ",
+        "utr": "UTR000008GCSQ",
+        "settled_amount": 7092.07,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 90.62,
+        "gst_on_fee": 16.31,
+        "linked_order_id": "ORD1011"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031LK",
+        "utr": "UTR000008GCTK",
+        "settled_amount": 7393.84,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 89.12,
+        "gst_on_fee": 16.04,
+        "linked_order_id": "ORD1041"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1012",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1588.26, actual ₹1585.23, wider-tolerance difference ₹3.03.",
+    "candidateIds": [
+      "pay_00031KR"
+    ],
+    "selectedPaymentId": "pay_00031KR",
+    "selectedUtr": "UTR000008GCSR",
+    "expectedSettlement": 1588.26,
+    "actualSettlement": 1585.23,
+    "amountDifference": -3.03,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1012",
+      "amount": 1599,
+      "order_date": "2026-08-18",
+      "customer_name": "Arjun Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KR",
+      "utr": "UTR000008GCSR",
+      "settled_amount": 1585.23,
+      "settlement_date": "2026-08-19",
+      "fee_deducted": 9.1,
+      "gst_on_fee": 1.64,
+      "linked_order_id": "ORD1012"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KR",
+        "utr": "UTR000008GCSR",
+        "settled_amount": 1585.23,
+        "settlement_date": "2026-08-19",
+        "fee_deducted": 9.1,
+        "gst_on_fee": 1.64,
+        "linked_order_id": "ORD1012"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1013",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹4919.20, actual ₹4709.20, shortfall ₹210.00.",
+    "candidateIds": [
+      "pay_00031KS",
+      "pay_00031LW"
+    ],
+    "selectedPaymentId": "pay_00031KS",
+    "selectedUtr": "UTR000008GCSS",
+    "expectedSettlement": 4919.2,
+    "actualSettlement": 4709.2,
+    "amountDifference": -210,
+    "unexplainedShortfall": 210,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1013",
+      "amount": 4999,
+      "order_date": "2026-08-18",
+      "customer_name": "Riya Joshi",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KS",
+      "utr": "UTR000008GCSS",
+      "settled_amount": 4709.2,
+      "settlement_date": "2026-08-20",
+      "fee_deducted": 67.63,
+      "gst_on_fee": 12.17,
+      "linked_order_id": "ORD1013"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KS",
+        "utr": "UTR000008GCSS",
+        "settled_amount": 4709.2,
+        "settlement_date": "2026-08-20",
+        "fee_deducted": 67.63,
+        "gst_on_fee": 12.17,
+        "linked_order_id": "ORD1013"
+      },
+      {
+        "payment_id": "pay_00031LW",
+        "utr": "UTR000008GCTW",
+        "settled_amount": 4955.25,
+        "settlement_date": "2026-08-19",
+        "fee_deducted": 37.08,
+        "gst_on_fee": 6.67,
+        "linked_order_id": "ORD1053"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1014",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7425.62, actual ₹7425.62, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KT",
+      "pay_00031M3",
+      "pay_00031ML"
+    ],
+    "selectedPaymentId": "pay_00031KT",
+    "selectedUtr": "UTR000008GCST",
+    "expectedSettlement": 7425.62,
+    "actualSettlement": 7425.62,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1014",
+      "amount": 7499,
+      "order_date": "2026-08-08",
+      "customer_name": "Ira Kapoor",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KT",
+      "utr": "UTR000008GCST",
+      "settled_amount": 7425.62,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 62.19,
+      "gst_on_fee": 11.19,
+      "linked_order_id": "ORD1014"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KT",
+        "utr": "UTR000008GCST",
+        "settled_amount": 7425.62,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 62.19,
+        "gst_on_fee": 11.19,
+        "linked_order_id": "ORD1014"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031ML",
+        "utr": "UTR000008GCUL",
+        "settled_amount": 7409.04,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 76.24,
+        "gst_on_fee": 13.72,
+        "linked_order_id": "ORD1078"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1015",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1284.18, actual ₹1284.18, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KU"
+    ],
+    "selectedPaymentId": "pay_00031KU",
+    "selectedUtr": "UTR000008GCSU",
+    "expectedSettlement": 1284.18,
+    "actualSettlement": 1284.18,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1015",
+      "amount": 1299,
+      "order_date": "2026-08-02",
+      "customer_name": "Riya Reddy",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KU",
+      "utr": "UTR000008GCSU",
+      "settled_amount": 1284.18,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 12.56,
+      "gst_on_fee": 2.26,
+      "linked_order_id": "ORD1015"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KU",
+        "utr": "UTR000008GCSU",
+        "settled_amount": 1284.18,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 12.56,
+        "gst_on_fee": 2.26,
+        "linked_order_id": "ORD1015"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1016",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹3479.67, actual ₹3479.67, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KV",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031KV",
+    "selectedUtr": "UTR000008GCSV",
+    "expectedSettlement": 3479.67,
+    "actualSettlement": 3479.67,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1016",
+      "amount": 3499,
+      "order_date": "2026-08-06",
+      "customer_name": "Diya Sharma",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KV",
+      "utr": "UTR000008GCSV",
+      "settled_amount": 3479.67,
+      "settlement_date": "2026-08-07",
+      "fee_deducted": 16.38,
+      "gst_on_fee": 2.95,
+      "linked_order_id": "ORD1016"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KV",
+        "utr": "UTR000008GCSV",
+        "settled_amount": 3479.67,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 16.38,
+        "gst_on_fee": 2.95,
+        "linked_order_id": "ORD1016"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1017",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3456.98, actual ₹3459.86, wider-tolerance difference ₹2.88.",
+    "candidateIds": [
+      "pay_00031KW",
+      "pay_00031L8",
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": "pay_00031KW",
+    "selectedUtr": "UTR000008GCSW",
+    "expectedSettlement": 3456.98,
+    "actualSettlement": 3459.86,
+    "amountDifference": 2.88,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1017",
+      "amount": 3499,
+      "order_date": "2026-08-17",
+      "customer_name": "Ishaan Kapoor",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KW",
+      "utr": "UTR000008GCSW",
+      "settled_amount": 3459.86,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 35.61,
+      "gst_on_fee": 6.41,
+      "linked_order_id": "ORD1017"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KW",
+        "utr": "UTR000008GCSW",
+        "settled_amount": 3459.86,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 35.61,
+        "gst_on_fee": 6.41,
+        "linked_order_id": "ORD1017"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031L9",
+        "utr": "UTR000008GCT9",
+        "settled_amount": 1297.95,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 17.84,
+        "gst_on_fee": 3.21,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1018",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1590.50, actual ₹1590.50, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031KX"
+    ],
+    "selectedPaymentId": "pay_00031KX",
+    "selectedUtr": "UTR000008GCSX",
+    "expectedSettlement": 1590.5,
+    "actualSettlement": 1590.5,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1018",
+      "amount": 1599,
+      "order_date": "2026-08-07",
+      "customer_name": "Diya Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KX",
+      "utr": "UTR000008GCSX",
+      "settled_amount": 1590.5,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 7.2,
+      "gst_on_fee": 1.3,
+      "linked_order_id": "ORD1018"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KX",
+        "utr": "UTR000008GCSX",
+        "settled_amount": 1590.5,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.2,
+        "gst_on_fee": 1.3,
+        "linked_order_id": "ORD1018"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1019",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2441.70, actual ₹2441.70, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KY",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031KY",
+    "selectedUtr": "UTR000008GCSY",
+    "expectedSettlement": 2441.7,
+    "actualSettlement": 2441.7,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1019",
+      "amount": 2499,
+      "order_date": "2026-08-03",
+      "customer_name": "Aarav Mehta",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KY",
+      "utr": "UTR000008GCSY",
+      "settled_amount": 2441.7,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 48.56,
+      "gst_on_fee": 8.74,
+      "linked_order_id": "ORD1019"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KY",
+        "utr": "UTR000008GCSY",
+        "settled_amount": 2441.7,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 48.56,
+        "gst_on_fee": 8.74,
+        "linked_order_id": "ORD1019"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1020",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1577.08, actual ₹1577.08, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031KZ"
+    ],
+    "selectedPaymentId": "pay_00031KZ",
+    "selectedUtr": "UTR000008GCSZ",
+    "expectedSettlement": 1577.08,
+    "actualSettlement": 1577.08,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1020",
+      "amount": 1599,
+      "order_date": "2026-08-03",
+      "customer_name": "Saanvi Sharma",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031KZ",
+      "utr": "UTR000008GCSZ",
+      "settled_amount": 1577.08,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 21.92,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1020"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031KZ",
+        "utr": "UTR000008GCSZ",
+        "settled_amount": 1577.08,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 21.92,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1020"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1021",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1979.01, actual ₹1983.23, wider-tolerance difference ₹4.22.",
+    "candidateIds": [
+      "pay_00031L0"
+    ],
+    "selectedPaymentId": "pay_00031L0",
+    "selectedUtr": "UTR000008GCT0",
+    "expectedSettlement": 1979.01,
+    "actualSettlement": 1983.23,
+    "amountDifference": 4.22,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1021",
+      "amount": 1999,
+      "order_date": "2026-08-21",
+      "customer_name": "Saanvi Kapoor",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L0",
+      "utr": "UTR000008GCT0",
+      "settled_amount": 1983.23,
+      "settlement_date": "2026-08-25",
+      "fee_deducted": 16.94,
+      "gst_on_fee": 3.05,
+      "linked_order_id": "ORD1021"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L0",
+        "utr": "UTR000008GCT0",
+        "settled_amount": 1983.23,
+        "settlement_date": "2026-08-25",
+        "fee_deducted": 16.94,
+        "gst_on_fee": 3.05,
+        "linked_order_id": "ORD1021"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1022",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹791.88, actual ₹791.88, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031L1",
+      "pay_00031LA"
+    ],
+    "selectedPaymentId": "pay_00031L1",
+    "selectedUtr": "UTR000008GCT1",
+    "expectedSettlement": 791.88,
+    "actualSettlement": 791.88,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1022",
+      "amount": 799,
+      "order_date": "2026-08-03",
+      "customer_name": "Aarav Patel",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L1",
+      "utr": "UTR000008GCT1",
+      "settled_amount": 791.88,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 6.03,
+      "gst_on_fee": 1.09,
+      "linked_order_id": "ORD1022"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L1",
+        "utr": "UTR000008GCT1",
+        "settled_amount": 791.88,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 6.03,
+        "gst_on_fee": 1.09,
+        "linked_order_id": "ORD1022"
+      },
+      {
+        "payment_id": "pay_00031LA",
+        "utr": "UTR000008GCTA",
+        "settled_amount": 790.72,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 7.02,
+        "gst_on_fee": 1.26,
+        "linked_order_id": "ORD1031"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1023",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9895.79, actual ₹9895.79, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031L2",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031L2",
+    "selectedUtr": "UTR000008GCT2",
+    "expectedSettlement": 9895.79,
+    "actualSettlement": 9895.79,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1023",
+      "amount": 9999,
+      "order_date": "2026-08-09",
+      "customer_name": "Vivaan Patel",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L2",
+      "utr": "UTR000008GCT2",
+      "settled_amount": 9895.79,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 87.47,
+      "gst_on_fee": 15.74,
+      "linked_order_id": "ORD1023"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L2",
+        "utr": "UTR000008GCT2",
+        "settled_amount": 9895.79,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 87.47,
+        "gst_on_fee": 15.74,
+        "linked_order_id": "ORD1023"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1024",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9829.65, actual ₹9829.65, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031L3",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031L3",
+    "selectedUtr": "UTR000008GCT3",
+    "expectedSettlement": 9829.65,
+    "actualSettlement": 9829.65,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1024",
+      "amount": 9999,
+      "order_date": "2026-08-06",
+      "customer_name": "Kabir Joshi",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L3",
+      "utr": "UTR000008GCT3",
+      "settled_amount": 9829.65,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 143.52,
+      "gst_on_fee": 25.83,
+      "linked_order_id": "ORD1024"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L3",
+        "utr": "UTR000008GCT3",
+        "settled_amount": 9829.65,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 143.52,
+        "gst_on_fee": 25.83,
+        "linked_order_id": "ORD1024"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1025",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹4953.84, actual ₹4953.84, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031L4"
+    ],
+    "selectedPaymentId": "pay_00031L4",
+    "selectedUtr": "UTR000008GCT4",
+    "expectedSettlement": 4953.84,
+    "actualSettlement": 4953.84,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1025",
+      "amount": 4999,
+      "order_date": "2026-08-11",
+      "customer_name": "Saanvi Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L4",
+      "utr": "UTR000008GCT4",
+      "settled_amount": 4953.84,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 38.27,
+      "gst_on_fee": 6.89,
+      "linked_order_id": "ORD1025"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L4",
+        "utr": "UTR000008GCT4",
+        "settled_amount": 4953.84,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 38.27,
+        "gst_on_fee": 6.89,
+        "linked_order_id": "ORD1025"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1026",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031L5",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031L5",
+    "selectedUtr": "UTR000008GCT5",
+    "expectedSettlement": 9861.2,
+    "actualSettlement": 9861.2,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1026",
+      "amount": 9999,
+      "order_date": "2026-08-17",
+      "customer_name": "Meera Kapoor",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L5",
+      "utr": "UTR000008GCT5",
+      "settled_amount": 9861.2,
+      "settlement_date": "2026-08-24",
+      "fee_deducted": 116.78,
+      "gst_on_fee": 21.02,
+      "linked_order_id": "ORD1026"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L5",
+        "utr": "UTR000008GCT5",
+        "settled_amount": 9861.2,
+        "settlement_date": "2026-08-24",
+        "fee_deducted": 116.78,
+        "gst_on_fee": 21.02,
+        "linked_order_id": "ORD1026"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1027",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7441.51, actual ₹7441.51, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031L6",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031L6",
+    "selectedUtr": "UTR000008GCT6",
+    "expectedSettlement": 7441.51,
+    "actualSettlement": 7441.51,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1027",
+      "amount": 7499,
+      "order_date": "2026-08-19",
+      "customer_name": "Vivaan Iyer",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L6",
+      "utr": "UTR000008GCT6",
+      "settled_amount": 7441.51,
+      "settlement_date": "2026-08-21",
+      "fee_deducted": 48.72,
+      "gst_on_fee": 8.77,
+      "linked_order_id": "ORD1027"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L6",
+        "utr": "UTR000008GCT6",
+        "settled_amount": 7441.51,
+        "settlement_date": "2026-08-21",
+        "fee_deducted": 48.72,
+        "gst_on_fee": 8.77,
+        "linked_order_id": "ORD1027"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1028",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹7411.69, actual ₹7071.69, shortfall ₹340.00.",
+    "candidateIds": [
+      "pay_00031L7",
+      "pay_00031M3",
+      "pay_00031KJ",
+      "pay_00031LK"
+    ],
+    "selectedPaymentId": "pay_00031L7",
+    "selectedUtr": "UTR000008GCT7",
+    "expectedSettlement": 7411.69,
+    "actualSettlement": 7071.69,
+    "amountDifference": -340,
+    "unexplainedShortfall": 340,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1028",
+      "amount": 7499,
+      "order_date": "2026-08-04",
+      "customer_name": "Meera Malhotra",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L7",
+      "utr": "UTR000008GCT7",
+      "settled_amount": 7071.69,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 73.99,
+      "gst_on_fee": 13.32,
+      "linked_order_id": "ORD1028"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L7",
+        "utr": "UTR000008GCT7",
+        "settled_amount": 7071.69,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 73.99,
+        "gst_on_fee": 13.32,
+        "linked_order_id": "ORD1028"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031KJ",
+        "utr": "UTR00000SAIO",
+        "settled_amount": 7438.48,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 51.29,
+        "gst_on_fee": 9.23,
+        "linked_order_id": "ORD1004"
+      },
+      {
+        "payment_id": "pay_00031LK",
+        "utr": "UTR000008GCTK",
+        "settled_amount": 7393.84,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 89.12,
+        "gst_on_fee": 16.04,
+        "linked_order_id": "ORD1041"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1029",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹3455.86, actual ₹3455.86, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031L8",
+    "selectedUtr": "UTR000008GCT8",
+    "expectedSettlement": 3455.86,
+    "actualSettlement": 3455.86,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1029",
+      "amount": 3499,
+      "order_date": "2026-08-04",
+      "customer_name": "Rohan Malhotra",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L8",
+      "utr": "UTR000008GCT8",
+      "settled_amount": 3455.86,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 36.56,
+      "gst_on_fee": 6.58,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1030",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹1577.95, actual ₹1297.95, shortfall ₹280.00.",
+    "candidateIds": [
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": "pay_00031L9",
+    "selectedUtr": "UTR000008GCT9",
+    "expectedSettlement": 1577.95,
+    "actualSettlement": 1297.95,
+    "amountDifference": -280,
+    "unexplainedShortfall": 280,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1030",
+      "amount": 1599,
+      "order_date": "2026-08-15",
+      "customer_name": "Ananya Gupta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031L9",
+      "utr": "UTR000008GCT9",
+      "settled_amount": 1297.95,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 17.84,
+      "gst_on_fee": 3.21,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L9",
+        "utr": "UTR000008GCT9",
+        "settled_amount": 1297.95,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 17.84,
+        "gst_on_fee": 3.21,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1031",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹790.72, actual ₹790.72, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LA",
+      "pay_00031L1"
+    ],
+    "selectedPaymentId": "pay_00031LA",
+    "selectedUtr": "UTR000008GCTA",
+    "expectedSettlement": 790.72,
+    "actualSettlement": 790.72,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1031",
+      "amount": 799,
+      "order_date": "2026-08-03",
+      "customer_name": "Vivaan Joshi",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LA",
+      "utr": "UTR000008GCTA",
+      "settled_amount": 790.72,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 7.02,
+      "gst_on_fee": 1.26,
+      "linked_order_id": "ORD1031"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LA",
+        "utr": "UTR000008GCTA",
+        "settled_amount": 790.72,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 7.02,
+        "gst_on_fee": 1.26,
+        "linked_order_id": "ORD1031"
+      },
+      {
+        "payment_id": "pay_00031L1",
+        "utr": "UTR000008GCT1",
+        "settled_amount": 791.88,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 6.03,
+        "gst_on_fee": 1.09,
+        "linked_order_id": "ORD1022"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1032",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 5 working days.",
+    "candidateIds": [
+      "pay_00031LB"
+    ],
+    "selectedPaymentId": "pay_00031LB",
+    "selectedUtr": "UTR000008GCTB",
+    "expectedSettlement": 296.46,
+    "actualSettlement": 296.46,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 5,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1032",
+      "amount": 299,
+      "order_date": "2026-08-15",
+      "customer_name": "Meera Joshi",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LB",
+      "utr": "UTR000008GCTB",
+      "settled_amount": 296.46,
+      "settlement_date": "2026-08-21",
+      "fee_deducted": 2.15,
+      "gst_on_fee": 0.39,
+      "linked_order_id": "ORD1032"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LB",
+        "utr": "UTR000008GCTB",
+        "settled_amount": 296.46,
+        "settlement_date": "2026-08-21",
+        "fee_deducted": 2.15,
+        "gst_on_fee": 0.39,
+        "linked_order_id": "ORD1032"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1033",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1291.97, actual ₹1291.97, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LC",
+      "pay_00031MY",
+      "pay_00031KH"
+    ],
+    "selectedPaymentId": "pay_00031LC",
+    "selectedUtr": "UTR000008GCTC",
+    "expectedSettlement": 1291.97,
+    "actualSettlement": 1291.97,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1033",
+      "amount": 1299,
+      "order_date": "2026-08-14",
+      "customer_name": "Ishaan Gupta",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LC",
+      "utr": "UTR000008GCTC",
+      "settled_amount": 1291.97,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 5.96,
+      "gst_on_fee": 1.07,
+      "linked_order_id": "ORD1033"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LC",
+        "utr": "UTR000008GCTC",
+        "settled_amount": 1291.97,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 5.96,
+        "gst_on_fee": 1.07,
+        "linked_order_id": "ORD1033"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031KH",
+        "utr": "UTR000008GCSH",
+        "settled_amount": 1287.94,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 9.37,
+        "gst_on_fee": 1.69,
+        "linked_order_id": "ORD1002"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1034",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1965.24, actual ₹1965.24, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LD"
+    ],
+    "selectedPaymentId": "pay_00031LD",
+    "selectedUtr": "UTR000008GCTD",
+    "expectedSettlement": 1965.24,
+    "actualSettlement": 1965.24,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1034",
+      "amount": 1999,
+      "order_date": "2026-08-13",
+      "customer_name": "Diya Reddy",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LD",
+      "utr": "UTR000008GCTD",
+      "settled_amount": 1965.24,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 33.76,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1034"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LD",
+        "utr": "UTR000008GCTD",
+        "settled_amount": 1965.24,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 33.76,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1034"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1035",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹295.50, actual ₹295.50, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LE"
+    ],
+    "selectedPaymentId": "pay_00031LE",
+    "selectedUtr": "UTR000008GCTE",
+    "expectedSettlement": 295.5,
+    "actualSettlement": 295.5,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1035",
+      "amount": 299,
+      "order_date": "2026-08-08",
+      "customer_name": "Ishaan Patel",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LE",
+      "utr": "UTR000008GCTE",
+      "settled_amount": 295.5,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 2.97,
+      "gst_on_fee": 0.53,
+      "linked_order_id": "ORD1035"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LE",
+        "utr": "UTR000008GCTE",
+        "settled_amount": 295.5,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 2.97,
+        "gst_on_fee": 0.53,
+        "linked_order_id": "ORD1035"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1036",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1036. Order amount: ₹1299.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-03–2026-08-07. 0 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1036",
+      "amount": 1299,
+      "order_date": "2026-08-01",
+      "customer_name": "Arjun Reddy",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": []
+  },
+  {
+    "orderId": "ORD1037",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹787.00, actual ₹787.00, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LG"
+    ],
+    "selectedPaymentId": "pay_00031LG",
+    "selectedUtr": "UTR000008GCTG",
+    "expectedSettlement": 787,
+    "actualSettlement": 787,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1037",
+      "amount": 799,
+      "order_date": "2026-08-11",
+      "customer_name": "Diya Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LG",
+      "utr": "UTR000008GCTG",
+      "settled_amount": 787,
+      "settlement_date": "2026-08-12",
+      "fee_deducted": 10.17,
+      "gst_on_fee": 1.83,
+      "linked_order_id": "ORD1037"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LG",
+        "utr": "UTR000008GCTG",
+        "settled_amount": 787,
+        "settlement_date": "2026-08-12",
+        "fee_deducted": 10.17,
+        "gst_on_fee": 1.83,
+        "linked_order_id": "ORD1037"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1038",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹4907.44, actual ₹4905.61, wider-tolerance difference ₹1.83.",
+    "candidateIds": [
+      "pay_00031LH"
+    ],
+    "selectedPaymentId": "pay_00031LH",
+    "selectedUtr": "UTR000008GCTH",
+    "expectedSettlement": 4907.44,
+    "actualSettlement": 4905.61,
+    "amountDifference": -1.83,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1038",
+      "amount": 4999,
+      "order_date": "2026-08-20",
+      "customer_name": "Ishaan Mehta",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LH",
+      "utr": "UTR000008GCTH",
+      "settled_amount": 4905.61,
+      "settlement_date": "2026-08-24",
+      "fee_deducted": 77.59,
+      "gst_on_fee": 13.97,
+      "linked_order_id": "ORD1038"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LH",
+        "utr": "UTR000008GCTH",
+        "settled_amount": 4905.61,
+        "settlement_date": "2026-08-24",
+        "fee_deducted": 77.59,
+        "gst_on_fee": 13.97,
+        "linked_order_id": "ORD1038"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1039",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹795.19, actual ₹798.28, wider-tolerance difference ₹3.09.",
+    "candidateIds": [
+      "pay_00031LI",
+      "pay_00031MY",
+      "pay_00031MD"
+    ],
+    "selectedPaymentId": "pay_00031LI",
+    "selectedUtr": "UTR000008GCTI",
+    "expectedSettlement": 795.19,
+    "actualSettlement": 798.28,
+    "amountDifference": 3.09,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1039",
+      "amount": 799,
+      "order_date": "2026-08-14",
+      "customer_name": "Riya Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LI",
+      "utr": "UTR000008GCTI",
+      "settled_amount": 798.28,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 3.23,
+      "gst_on_fee": 0.58,
+      "linked_order_id": "ORD1039"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LI",
+        "utr": "UTR000008GCTI",
+        "settled_amount": 798.28,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 3.23,
+        "gst_on_fee": 0.58,
+        "linked_order_id": "ORD1039"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031MD",
+        "utr": "UTR000008GCUD",
+        "settled_amount": 796.51,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 2.11,
+        "gst_on_fee": 0.38,
+        "linked_order_id": "ORD1070"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1040",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹296.09, actual ₹292.04, wider-tolerance difference ₹4.05.",
+    "candidateIds": [
+      "pay_00031LJ"
+    ],
+    "selectedPaymentId": "pay_00031LJ",
+    "selectedUtr": "UTR000008GCTJ",
+    "expectedSettlement": 296.09,
+    "actualSettlement": 292.04,
+    "amountDifference": -4.05,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1040",
+      "amount": 299,
+      "order_date": "2026-08-13",
+      "customer_name": "Meera Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LJ",
+      "utr": "UTR000008GCTJ",
+      "settled_amount": 292.04,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 2.47,
+      "gst_on_fee": 0.44,
+      "linked_order_id": "ORD1040"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LJ",
+        "utr": "UTR000008GCTJ",
+        "settled_amount": 292.04,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 2.47,
+        "gst_on_fee": 0.44,
+        "linked_order_id": "ORD1040"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1041",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7393.84, actual ₹7393.84, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LK",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031LK",
+    "selectedUtr": "UTR000008GCTK",
+    "expectedSettlement": 7393.84,
+    "actualSettlement": 7393.84,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1041",
+      "amount": 7499,
+      "order_date": "2026-08-04",
+      "customer_name": "Riya Nair",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LK",
+      "utr": "UTR000008GCTK",
+      "settled_amount": 7393.84,
+      "settlement_date": "2026-08-06",
+      "fee_deducted": 89.12,
+      "gst_on_fee": 16.04,
+      "linked_order_id": "ORD1041"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LK",
+        "utr": "UTR000008GCTK",
+        "settled_amount": 7393.84,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 89.12,
+        "gst_on_fee": 16.04,
+        "linked_order_id": "ORD1041"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1042",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹492.40, actual ₹492.40, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LL"
+    ],
+    "selectedPaymentId": "pay_00031LL",
+    "selectedUtr": "UTR000008GCTL",
+    "expectedSettlement": 492.4,
+    "actualSettlement": 492.4,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1042",
+      "amount": 499,
+      "order_date": "2026-08-05",
+      "customer_name": "Ananya Nair",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LL",
+      "utr": "UTR000008GCTL",
+      "settled_amount": 492.4,
+      "settlement_date": "2026-08-06",
+      "fee_deducted": 5.59,
+      "gst_on_fee": 1.01,
+      "linked_order_id": "ORD1042"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LL",
+        "utr": "UTR000008GCTL",
+        "settled_amount": 492.4,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 5.59,
+        "gst_on_fee": 1.01,
+        "linked_order_id": "ORD1042"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1043",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹493.01, actual ₹493.01, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LM"
+    ],
+    "selectedPaymentId": "pay_00031LM",
+    "selectedUtr": "UTR000008GCTM",
+    "expectedSettlement": 493.01,
+    "actualSettlement": 493.01,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1043",
+      "amount": 499,
+      "order_date": "2026-08-18",
+      "customer_name": "Vivaan Patel",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LM",
+      "utr": "UTR000008GCTM",
+      "settled_amount": 493.01,
+      "settlement_date": "2026-08-20",
+      "fee_deducted": 5.08,
+      "gst_on_fee": 0.91,
+      "linked_order_id": "ORD1043"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LM",
+        "utr": "UTR000008GCTM",
+        "settled_amount": 493.01,
+        "settlement_date": "2026-08-20",
+        "fee_deducted": 5.08,
+        "gst_on_fee": 0.91,
+        "linked_order_id": "ORD1043"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1044",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1589.14, actual ₹1589.14, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LN"
+    ],
+    "selectedPaymentId": "pay_00031LN",
+    "selectedUtr": "UTR000008GCTN",
+    "expectedSettlement": 1589.14,
+    "actualSettlement": 1589.14,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1044",
+      "amount": 1599,
+      "order_date": "2026-08-11",
+      "customer_name": "Aarav Joshi",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LN",
+      "utr": "UTR000008GCTN",
+      "settled_amount": 1589.14,
+      "settlement_date": "2026-08-12",
+      "fee_deducted": 8.36,
+      "gst_on_fee": 1.5,
+      "linked_order_id": "ORD1044"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LN",
+        "utr": "UTR000008GCTN",
+        "settled_amount": 1589.14,
+        "settlement_date": "2026-08-12",
+        "fee_deducted": 8.36,
+        "gst_on_fee": 1.5,
+        "linked_order_id": "ORD1044"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1045",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1979.60, actual ₹1979.60, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LO",
+      "pay_00031L9",
+      "pay_00031MY"
+    ],
+    "selectedPaymentId": "pay_00031LO",
+    "selectedUtr": "UTR000008GCTO",
+    "expectedSettlement": 1979.6,
+    "actualSettlement": 1979.6,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1045",
+      "amount": 1999,
+      "order_date": "2026-08-14",
+      "customer_name": "Aarav Malhotra",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LO",
+      "utr": "UTR000008GCTO",
+      "settled_amount": 1979.6,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 16.44,
+      "gst_on_fee": 2.96,
+      "linked_order_id": "ORD1045"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LO",
+        "utr": "UTR000008GCTO",
+        "settled_amount": 1979.6,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 16.44,
+        "gst_on_fee": 2.96,
+        "linked_order_id": "ORD1045"
+      },
+      {
+        "payment_id": "pay_00031L9",
+        "utr": "UTR000008GCT9",
+        "settled_amount": 1297.95,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 17.84,
+        "gst_on_fee": 3.21,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1046",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹294.59, actual ₹114.59, shortfall ₹180.00.",
+    "candidateIds": [
+      "pay_00031LP",
+      "pay_00031MR"
+    ],
+    "selectedPaymentId": "pay_00031LP",
+    "selectedUtr": "UTR000008GCTP",
+    "expectedSettlement": 294.59,
+    "actualSettlement": 114.59,
+    "amountDifference": -180,
+    "unexplainedShortfall": 180,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1046",
+      "amount": 299,
+      "order_date": "2026-08-12",
+      "customer_name": "Ananya Nair",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LP",
+      "utr": "UTR000008GCTP",
+      "settled_amount": 114.59,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 4.41,
+      "gst_on_fee": 0,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LP",
+        "utr": "UTR000008GCTP",
+        "settled_amount": 114.59,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 4.41,
+        "gst_on_fee": 0,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031MR",
+        "utr": "UTR000008GCUR",
+        "settled_amount": 293.13,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 5.87,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1084"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1047",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1047. Order amount: ₹3499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-17–2026-08-21. 2 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [
+      "pay_00031L8",
+      "pay_00031L9"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1047",
+      "amount": 3499,
+      "order_date": "2026-08-15",
+      "customer_name": "Ishaan Iyer",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031L9",
+        "utr": "UTR000008GCT9",
+        "settled_amount": 1297.95,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 17.84,
+        "gst_on_fee": 3.21,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1048",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9965.46, actual ₹9965.46, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LR",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031LR",
+    "selectedUtr": "UTR000008GCTR",
+    "expectedSettlement": 9965.46,
+    "actualSettlement": 9965.46,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1048",
+      "amount": 9999,
+      "order_date": "2026-08-13",
+      "customer_name": "Rohan Gupta",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LR",
+      "utr": "UTR000008GCTR",
+      "settled_amount": 9965.46,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 28.42,
+      "gst_on_fee": 5.12,
+      "linked_order_id": "ORD1048"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LR",
+        "utr": "UTR000008GCTR",
+        "settled_amount": 9965.46,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 28.42,
+        "gst_on_fee": 5.12,
+        "linked_order_id": "ORD1048"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1049",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1573.49, actual ₹1573.49, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LS"
+    ],
+    "selectedPaymentId": "pay_00031LS",
+    "selectedUtr": "UTR000008GCTS",
+    "expectedSettlement": 1573.49,
+    "actualSettlement": 1573.49,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1049",
+      "amount": 1599,
+      "order_date": "2026-08-16",
+      "customer_name": "Diya Reddy",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LS",
+      "utr": "UTR000008GCTS",
+      "settled_amount": 1573.49,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 25.51,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1049"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LS",
+        "utr": "UTR000008GCTS",
+        "settled_amount": 1573.49,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 25.51,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1049"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1050",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1587.39, actual ₹1587.39, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LT"
+    ],
+    "selectedPaymentId": "pay_00031LT",
+    "selectedUtr": "UTR000008GCTT",
+    "expectedSettlement": 1587.39,
+    "actualSettlement": 1587.39,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1050",
+      "amount": 1599,
+      "order_date": "2026-08-20",
+      "customer_name": "Aarav Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LT",
+      "utr": "UTR000008GCTT",
+      "settled_amount": 1587.39,
+      "settlement_date": "2026-08-24",
+      "fee_deducted": 9.84,
+      "gst_on_fee": 1.77,
+      "linked_order_id": "ORD1050"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LT",
+        "utr": "UTR000008GCTT",
+        "settled_amount": 1587.39,
+        "settlement_date": "2026-08-24",
+        "fee_deducted": 9.84,
+        "gst_on_fee": 1.77,
+        "linked_order_id": "ORD1050"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1051",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2455.74, actual ₹2455.74, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LU",
+      "pay_00031L9",
+      "pay_00031M5"
+    ],
+    "selectedPaymentId": "pay_00031LU",
+    "selectedUtr": "UTR000008GCTU",
+    "expectedSettlement": 2455.74,
+    "actualSettlement": 2455.74,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1051",
+      "amount": 2499,
+      "order_date": "2026-08-14",
+      "customer_name": "Ira Malhotra",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LU",
+      "utr": "UTR000008GCTU",
+      "settled_amount": 2455.74,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 36.66,
+      "gst_on_fee": 6.6,
+      "linked_order_id": "ORD1051"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LU",
+        "utr": "UTR000008GCTU",
+        "settled_amount": 2455.74,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 36.66,
+        "gst_on_fee": 6.6,
+        "linked_order_id": "ORD1051"
+      },
+      {
+        "payment_id": "pay_00031L9",
+        "utr": "UTR000008GCT9",
+        "settled_amount": 1297.95,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 17.84,
+        "gst_on_fee": 3.21,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031M5",
+        "utr": "UTR000008GCU5",
+        "settled_amount": 2472.13,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 22.77,
+        "gst_on_fee": 4.1,
+        "linked_order_id": "ORD1062"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1052",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹4962.53, actual ₹4962.53, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LV"
+    ],
+    "selectedPaymentId": "pay_00031LV",
+    "selectedUtr": "UTR000008GCTV",
+    "expectedSettlement": 4962.53,
+    "actualSettlement": 4962.53,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1052",
+      "amount": 4999,
+      "order_date": "2026-08-02",
+      "customer_name": "Ira Sharma",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LV",
+      "utr": "UTR000008GCTV",
+      "settled_amount": 4962.53,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 30.91,
+      "gst_on_fee": 5.56,
+      "linked_order_id": "ORD1052"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LV",
+        "utr": "UTR000008GCTV",
+        "settled_amount": 4962.53,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 30.91,
+        "gst_on_fee": 5.56,
+        "linked_order_id": "ORD1052"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1053",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹4955.25, actual ₹4955.25, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LW"
+    ],
+    "selectedPaymentId": "pay_00031LW",
+    "selectedUtr": "UTR000008GCTW",
+    "expectedSettlement": 4955.25,
+    "actualSettlement": 4955.25,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1053",
+      "amount": 4999,
+      "order_date": "2026-08-18",
+      "customer_name": "Ananya Malhotra",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LW",
+      "utr": "UTR000008GCTW",
+      "settled_amount": 4955.25,
+      "settlement_date": "2026-08-19",
+      "fee_deducted": 37.08,
+      "gst_on_fee": 6.67,
+      "linked_order_id": "ORD1053"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LW",
+        "utr": "UTR000008GCTW",
+        "settled_amount": 4955.25,
+        "settlement_date": "2026-08-19",
+        "fee_deducted": 37.08,
+        "gst_on_fee": 6.67,
+        "linked_order_id": "ORD1053"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1054",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1281.82, actual ₹1281.82, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LX",
+      "pay_00031KU"
+    ],
+    "selectedPaymentId": "pay_00031LX",
+    "selectedUtr": "UTR000008GCTX",
+    "expectedSettlement": 1281.82,
+    "actualSettlement": 1281.82,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1054",
+      "amount": 1299,
+      "order_date": "2026-08-02",
+      "customer_name": "Diya Patel",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LX",
+      "utr": "UTR000008GCTX",
+      "settled_amount": 1281.82,
+      "settlement_date": "2026-08-03",
+      "fee_deducted": 14.56,
+      "gst_on_fee": 2.62,
+      "linked_order_id": "ORD1054"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LX",
+        "utr": "UTR000008GCTX",
+        "settled_amount": 1281.82,
+        "settlement_date": "2026-08-03",
+        "fee_deducted": 14.56,
+        "gst_on_fee": 2.62,
+        "linked_order_id": "ORD1054"
+      },
+      {
+        "payment_id": "pay_00031KU",
+        "utr": "UTR000008GCSU",
+        "settled_amount": 1284.18,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 12.56,
+        "gst_on_fee": 2.26,
+        "linked_order_id": "ORD1015"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1055",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9800.29, actual ₹9800.29, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031LY",
+      "pay_00031MH"
+    ],
+    "selectedPaymentId": "pay_00031LY",
+    "selectedUtr": "UTR000008GCTY",
+    "expectedSettlement": 9800.29,
+    "actualSettlement": 9800.29,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1055",
+      "amount": 9999,
+      "order_date": "2026-08-17",
+      "customer_name": "Arjun Sharma",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LY",
+      "utr": "UTR000008GCTY",
+      "settled_amount": 9800.29,
+      "settlement_date": "2026-08-19",
+      "fee_deducted": 168.4,
+      "gst_on_fee": 30.31,
+      "linked_order_id": "ORD1055"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LY",
+        "utr": "UTR000008GCTY",
+        "settled_amount": 9800.29,
+        "settlement_date": "2026-08-19",
+        "fee_deducted": 168.4,
+        "gst_on_fee": 30.31,
+        "linked_order_id": "ORD1055"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1056",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2465.64, actual ₹2465.64, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031LZ"
+    ],
+    "selectedPaymentId": "pay_00031LZ",
+    "selectedUtr": "UTR000008GCTZ",
+    "expectedSettlement": 2465.64,
+    "actualSettlement": 2465.64,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1056",
+      "amount": 2499,
+      "order_date": "2026-08-10",
+      "customer_name": "Vivaan Joshi",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031LZ",
+      "utr": "UTR000008GCTZ",
+      "settled_amount": 2465.64,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 28.27,
+      "gst_on_fee": 5.09,
+      "linked_order_id": "ORD1056"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031LZ",
+        "utr": "UTR000008GCTZ",
+        "settled_amount": 2465.64,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 28.27,
+        "gst_on_fee": 5.09,
+        "linked_order_id": "ORD1056"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1057",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1972.01, actual ₹1972.01, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031M0"
+    ],
+    "selectedPaymentId": "pay_00031M0",
+    "selectedUtr": "UTR000008GCU0",
+    "expectedSettlement": 1972.01,
+    "actualSettlement": 1972.01,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1057",
+      "amount": 1999,
+      "order_date": "2026-08-04",
+      "customer_name": "Riya Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M0",
+      "utr": "UTR000008GCU0",
+      "settled_amount": 1972.01,
+      "settlement_date": "2026-08-06",
+      "fee_deducted": 22.87,
+      "gst_on_fee": 4.12,
+      "linked_order_id": "ORD1057"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M0",
+        "utr": "UTR000008GCU0",
+        "settled_amount": 1972.01,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 22.87,
+        "gst_on_fee": 4.12,
+        "linked_order_id": "ORD1057"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1058",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2455.46, actual ₹2455.46, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031M1",
+      "pay_00031LZ"
+    ],
+    "selectedPaymentId": "pay_00031M1",
+    "selectedUtr": "UTR000008GCU1",
+    "expectedSettlement": 2455.46,
+    "actualSettlement": 2455.46,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1058",
+      "amount": 2499,
+      "order_date": "2026-08-09",
+      "customer_name": "Riya Mehta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M1",
+      "utr": "UTR000008GCU1",
+      "settled_amount": 2455.46,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 36.9,
+      "gst_on_fee": 6.64,
+      "linked_order_id": "ORD1058"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M1",
+        "utr": "UTR000008GCU1",
+        "settled_amount": 2455.46,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 36.9,
+        "gst_on_fee": 6.64,
+        "linked_order_id": "ORD1058"
+      },
+      {
+        "payment_id": "pay_00031LZ",
+        "utr": "UTR000008GCTZ",
+        "settled_amount": 2465.64,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 28.27,
+        "gst_on_fee": 5.09,
+        "linked_order_id": "ORD1056"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1059",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹3425.85, actual ₹3427.10, wider-tolerance difference ₹1.25.",
+    "candidateIds": [
+      "pay_00031M2",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031M2",
+    "selectedUtr": "UTR000008GCU2",
+    "expectedSettlement": 3425.85,
+    "actualSettlement": 3427.1,
+    "amountDifference": 1.25,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1059",
+      "amount": 3499,
+      "order_date": "2026-08-12",
+      "customer_name": "Riya Joshi",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M2",
+      "utr": "UTR000008GCU2",
+      "settled_amount": 3427.1,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 61.99,
+      "gst_on_fee": 11.16,
+      "linked_order_id": "ORD1059"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M2",
+        "utr": "UTR000008GCU2",
+        "settled_amount": 3427.1,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 61.99,
+        "gst_on_fee": 11.16,
+        "linked_order_id": "ORD1059"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1060",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7427.43, actual ₹7427.43, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031M3",
+    "selectedUtr": "UTR000008GCU3",
+    "expectedSettlement": 7427.43,
+    "actualSettlement": 7427.43,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1060",
+      "amount": 7499,
+      "order_date": "2026-08-01",
+      "customer_name": "Kabir Sharma",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M3",
+      "utr": "UTR000008GCU3",
+      "settled_amount": 7427.43,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 60.65,
+      "gst_on_fee": 10.92,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1061",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1281.34, actual ₹1281.34, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031M4",
+      "pay_00031MO"
+    ],
+    "selectedPaymentId": "pay_00031M4",
+    "selectedUtr": "UTR000008GCU4",
+    "expectedSettlement": 1281.34,
+    "actualSettlement": 1281.34,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1061",
+      "amount": 1299,
+      "order_date": "2026-08-08",
+      "customer_name": "Ishaan Reddy",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M4",
+      "utr": "UTR000008GCU4",
+      "settled_amount": 1281.34,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 14.97,
+      "gst_on_fee": 2.69,
+      "linked_order_id": "ORD1061"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M4",
+        "utr": "UTR000008GCU4",
+        "settled_amount": 1281.34,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 14.97,
+        "gst_on_fee": 2.69,
+        "linked_order_id": "ORD1061"
+      },
+      {
+        "payment_id": "pay_00031MO",
+        "utr": "UTR000008GCUO",
+        "settled_amount": 1289.61,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.96,
+        "gst_on_fee": 1.43,
+        "linked_order_id": "ORD1081"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1062",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2472.13, actual ₹2472.13, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031M5"
+    ],
+    "selectedPaymentId": "pay_00031M5",
+    "selectedUtr": "UTR000008GCU5",
+    "expectedSettlement": 2472.13,
+    "actualSettlement": 2472.13,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1062",
+      "amount": 2499,
+      "order_date": "2026-08-13",
+      "customer_name": "Vivaan Nair",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M5",
+      "utr": "UTR000008GCU5",
+      "settled_amount": 2472.13,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 22.77,
+      "gst_on_fee": 4.1,
+      "linked_order_id": "ORD1062"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M5",
+        "utr": "UTR000008GCU5",
+        "settled_amount": 2472.13,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 22.77,
+        "gst_on_fee": 4.1,
+        "linked_order_id": "ORD1062"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1063",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹490.50, actual ₹490.50, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031M6",
+      "pay_00031MY"
+    ],
+    "selectedPaymentId": "pay_00031M6",
+    "selectedUtr": "UTR000008GCU6",
+    "expectedSettlement": 490.5,
+    "actualSettlement": 490.5,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1063",
+      "amount": 499,
+      "order_date": "2026-08-16",
+      "customer_name": "Meera Malhotra",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M6",
+      "utr": "UTR000008GCU6",
+      "settled_amount": 490.5,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 7.2,
+      "gst_on_fee": 1.3,
+      "linked_order_id": "ORD1063"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M6",
+        "utr": "UTR000008GCU6",
+        "settled_amount": 490.5,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 7.2,
+        "gst_on_fee": 1.3,
+        "linked_order_id": "ORD1063"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1064",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1281.55, actual ₹1278.51, wider-tolerance difference ₹3.04.",
+    "candidateIds": [
+      "pay_00031M7"
+    ],
+    "selectedPaymentId": "pay_00031M7",
+    "selectedUtr": "UTR000008GCU7",
+    "expectedSettlement": 1281.55,
+    "actualSettlement": 1278.51,
+    "amountDifference": -3.04,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1064",
+      "amount": 1299,
+      "order_date": "2026-08-21",
+      "customer_name": "Rohan Kapoor",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M7",
+      "utr": "UTR000008GCU7",
+      "settled_amount": 1278.51,
+      "settlement_date": "2026-08-25",
+      "fee_deducted": 17.45,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1064"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M7",
+        "utr": "UTR000008GCU7",
+        "settled_amount": 1278.51,
+        "settlement_date": "2026-08-25",
+        "fee_deducted": 17.45,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1064"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1065",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹789.74, actual ₹789.74, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031M8",
+      "pay_00031KN"
+    ],
+    "selectedPaymentId": "pay_00031M8",
+    "selectedUtr": "UTR000008GCU8",
+    "expectedSettlement": 789.74,
+    "actualSettlement": 789.74,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1065",
+      "amount": 799,
+      "order_date": "2026-08-07",
+      "customer_name": "Ira Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M8",
+      "utr": "UTR000008GCU8",
+      "settled_amount": 789.74,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 7.85,
+      "gst_on_fee": 1.41,
+      "linked_order_id": "ORD1065"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M8",
+        "utr": "UTR000008GCU8",
+        "settled_amount": 789.74,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 7.85,
+        "gst_on_fee": 1.41,
+        "linked_order_id": "ORD1065"
+      },
+      {
+        "payment_id": "pay_00031KN",
+        "utr": "UTR000008GCSN",
+        "settled_amount": 795.08,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 3.32,
+        "gst_on_fee": 0.6,
+        "linked_order_id": "ORD1008"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1066",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹2456.37, actual ₹2456.37, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031M9",
+      "pay_00031M1"
+    ],
+    "selectedPaymentId": "pay_00031M9",
+    "selectedUtr": "UTR000008GCU9",
+    "expectedSettlement": 2456.37,
+    "actualSettlement": 2456.37,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1066",
+      "amount": 2499,
+      "order_date": "2026-08-06",
+      "customer_name": "Ira Patel",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031M9",
+      "utr": "UTR000008GCU9",
+      "settled_amount": 2456.37,
+      "settlement_date": "2026-08-07",
+      "fee_deducted": 36.13,
+      "gst_on_fee": 6.5,
+      "linked_order_id": "ORD1066"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M9",
+        "utr": "UTR000008GCU9",
+        "settled_amount": 2456.37,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 36.13,
+        "gst_on_fee": 6.5,
+        "linked_order_id": "ORD1066"
+      },
+      {
+        "payment_id": "pay_00031M1",
+        "utr": "UTR000008GCU1",
+        "settled_amount": 2455.46,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 36.9,
+        "gst_on_fee": 6.64,
+        "linked_order_id": "ORD1058"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1067",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1291.53, actual ₹1291.53, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MA",
+      "pay_00031MO"
+    ],
+    "selectedPaymentId": "pay_00031MA",
+    "selectedUtr": "UTR000008GCUA",
+    "expectedSettlement": 1291.53,
+    "actualSettlement": 1291.53,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1067",
+      "amount": 1299,
+      "order_date": "2026-08-07",
+      "customer_name": "Ira Kapoor",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MA",
+      "utr": "UTR000008GCUA",
+      "settled_amount": 1291.53,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 6.33,
+      "gst_on_fee": 1.14,
+      "linked_order_id": "ORD1067"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MA",
+        "utr": "UTR000008GCUA",
+        "settled_amount": 1291.53,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 6.33,
+        "gst_on_fee": 1.14,
+        "linked_order_id": "ORD1067"
+      },
+      {
+        "payment_id": "pay_00031MO",
+        "utr": "UTR000008GCUO",
+        "settled_amount": 1289.61,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.96,
+        "gst_on_fee": 1.43,
+        "linked_order_id": "ORD1081"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1068",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1586.63, actual ₹1586.63, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MB"
+    ],
+    "selectedPaymentId": "pay_00031MB",
+    "selectedUtr": "UTR000008GCUB",
+    "expectedSettlement": 1586.63,
+    "actualSettlement": 1586.63,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1068",
+      "amount": 1599,
+      "order_date": "2026-08-12",
+      "customer_name": "Rohan Kapoor",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MB",
+      "utr": "UTR000008GCUB",
+      "settled_amount": 1586.63,
+      "settlement_date": "2026-08-14",
+      "fee_deducted": 10.48,
+      "gst_on_fee": 1.89,
+      "linked_order_id": "ORD1068"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MB",
+        "utr": "UTR000008GCUB",
+        "settled_amount": 1586.63,
+        "settlement_date": "2026-08-14",
+        "fee_deducted": 10.48,
+        "gst_on_fee": 1.89,
+        "linked_order_id": "ORD1068"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1069",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIO is associated with multiple orders: ORD1004, ORD1069. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MC",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIO",
+    "expectedSettlement": null,
+    "actualSettlement": 7352.08,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1069",
+      "amount": 7499,
+      "order_date": "2026-08-14",
+      "customer_name": "Ananya Nair",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MC",
+        "utr": "UTR00000SAIO",
+        "settled_amount": 7352.08,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 124.51,
+        "gst_on_fee": 22.41,
+        "linked_order_id": "ORD1069"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1070",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹796.51, actual ₹796.51, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MD",
+      "pay_00031MY"
+    ],
+    "selectedPaymentId": "pay_00031MD",
+    "selectedUtr": "UTR000008GCUD",
+    "expectedSettlement": 796.51,
+    "actualSettlement": 796.51,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1070",
+      "amount": 799,
+      "order_date": "2026-08-15",
+      "customer_name": "Vivaan Iyer",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MD",
+      "utr": "UTR000008GCUD",
+      "settled_amount": 796.51,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 2.11,
+      "gst_on_fee": 0.38,
+      "linked_order_id": "ORD1070"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MD",
+        "utr": "UTR000008GCUD",
+        "settled_amount": 796.51,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 2.11,
+        "gst_on_fee": 0.38,
+        "linked_order_id": "ORD1070"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1071",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹989.78, actual ₹989.78, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031ME",
+      "pay_00031MY"
+    ],
+    "selectedPaymentId": "pay_00031ME",
+    "selectedUtr": "UTR000008GCUE",
+    "expectedSettlement": 989.78,
+    "actualSettlement": 989.78,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1071",
+      "amount": 999,
+      "order_date": "2026-08-10",
+      "customer_name": "Arjun Mehta",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031ME",
+      "utr": "UTR000008GCUE",
+      "settled_amount": 989.78,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 7.81,
+      "gst_on_fee": 1.41,
+      "linked_order_id": "ORD1071"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031ME",
+        "utr": "UTR000008GCUE",
+        "settled_amount": 989.78,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.81,
+        "gst_on_fee": 1.41,
+        "linked_order_id": "ORD1071"
+      },
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1072",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹2445.45, actual ₹2443.64, wider-tolerance difference ₹1.81.",
+    "candidateIds": [
+      "pay_00031MF",
+      "pay_00031LZ",
+      "pay_00031M1"
+    ],
+    "selectedPaymentId": "pay_00031MF",
+    "selectedUtr": "UTR000008GCUF",
+    "expectedSettlement": 2445.45,
+    "actualSettlement": 2443.64,
+    "amountDifference": -1.81,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1072",
+      "amount": 2499,
+      "order_date": "2026-08-08",
+      "customer_name": "Riya Gupta",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MF",
+      "utr": "UTR000008GCUF",
+      "settled_amount": 2443.64,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 45.38,
+      "gst_on_fee": 8.17,
+      "linked_order_id": "ORD1072"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MF",
+        "utr": "UTR000008GCUF",
+        "settled_amount": 2443.64,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 45.38,
+        "gst_on_fee": 8.17,
+        "linked_order_id": "ORD1072"
+      },
+      {
+        "payment_id": "pay_00031LZ",
+        "utr": "UTR000008GCTZ",
+        "settled_amount": 2465.64,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 28.27,
+        "gst_on_fee": 5.09,
+        "linked_order_id": "ORD1056"
+      },
+      {
+        "payment_id": "pay_00031M1",
+        "utr": "UTR000008GCU1",
+        "settled_amount": 2455.46,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 36.9,
+        "gst_on_fee": 6.64,
+        "linked_order_id": "ORD1058"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1073",
+    "status": "DELAYED_SETTLEMENT",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Financial amount reconciles within ₹1.00, but settlement arrived after 4 working days.",
+    "candidateIds": [
+      "pay_00031MG",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031MG",
+    "selectedUtr": "UTR000008GCUG",
+    "expectedSettlement": 7396.23,
+    "actualSettlement": 7396.23,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 4,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1073",
+      "amount": 7499,
+      "order_date": "2026-08-21",
+      "customer_name": "Ananya Mehta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MG",
+      "utr": "UTR000008GCUG",
+      "settled_amount": 7396.23,
+      "settlement_date": "2026-08-27",
+      "fee_deducted": 87.09,
+      "gst_on_fee": 15.68,
+      "linked_order_id": "ORD1073"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MG",
+        "utr": "UTR000008GCUG",
+        "settled_amount": 7396.23,
+        "settlement_date": "2026-08-27",
+        "fee_deducted": 87.09,
+        "gst_on_fee": 15.68,
+        "linked_order_id": "ORD1073"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1074",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9813.36, actual ₹9813.36, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MH",
+      "pay_00031L3"
+    ],
+    "selectedPaymentId": "pay_00031MH",
+    "selectedUtr": "UTR000008GCUH",
+    "expectedSettlement": 9813.36,
+    "actualSettlement": 9813.36,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1074",
+      "amount": 9999,
+      "order_date": "2026-08-08",
+      "customer_name": "Diya Malhotra",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MH",
+      "utr": "UTR000008GCUH",
+      "settled_amount": 9813.36,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 157.32,
+      "gst_on_fee": 28.32,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031L3",
+        "utr": "UTR000008GCT3",
+        "settled_amount": 9829.65,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 143.52,
+        "gst_on_fee": 25.83,
+        "linked_order_id": "ORD1024"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1075",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1075. Order amount: ₹7499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-13–2026-08-19. 1 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1075",
+      "amount": 7499,
+      "order_date": "2026-08-12",
+      "customer_name": "Kabir Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1076",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1985.13, actual ₹1985.13, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MJ"
+    ],
+    "selectedPaymentId": "pay_00031MJ",
+    "selectedUtr": "UTR000008GCUJ",
+    "expectedSettlement": 1985.13,
+    "actualSettlement": 1985.13,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1076",
+      "amount": 1999,
+      "order_date": "2026-08-12",
+      "customer_name": "Rohan Joshi",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MJ",
+      "utr": "UTR000008GCUJ",
+      "settled_amount": 1985.13,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 11.75,
+      "gst_on_fee": 2.12,
+      "linked_order_id": "ORD1076"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MJ",
+        "utr": "UTR000008GCUJ",
+        "settled_amount": 1985.13,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 11.75,
+        "gst_on_fee": 2.12,
+        "linked_order_id": "ORD1076"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1077",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1285.63, actual ₹1285.63, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MK",
+      "pay_00031MN"
+    ],
+    "selectedPaymentId": "pay_00031MK",
+    "selectedUtr": "UTR000008GCUK",
+    "expectedSettlement": 1285.63,
+    "actualSettlement": 1285.63,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1077",
+      "amount": 1299,
+      "order_date": "2026-08-12",
+      "customer_name": "Ananya Iyer",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MK",
+      "utr": "UTR000008GCUK",
+      "settled_amount": 1285.63,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 11.33,
+      "gst_on_fee": 2.04,
+      "linked_order_id": "ORD1077"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MK",
+        "utr": "UTR000008GCUK",
+        "settled_amount": 1285.63,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 11.33,
+        "gst_on_fee": 2.04,
+        "linked_order_id": "ORD1077"
+      },
+      {
+        "payment_id": "pay_00031MN",
+        "utr": "UTR000008GCUN",
+        "settled_amount": 1276.05,
+        "settlement_date": "2026-08-14",
+        "fee_deducted": 19.45,
+        "gst_on_fee": 3.5,
+        "linked_order_id": "ORD1080"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1078",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7409.04, actual ₹7409.04, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031ML",
+      "pay_00031M3",
+      "pay_00031MU"
+    ],
+    "selectedPaymentId": "pay_00031ML",
+    "selectedUtr": "UTR000008GCUL",
+    "expectedSettlement": 7409.04,
+    "actualSettlement": 7409.04,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1078",
+      "amount": 7499,
+      "order_date": "2026-08-06",
+      "customer_name": "Riya Gupta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031ML",
+      "utr": "UTR000008GCUL",
+      "settled_amount": 7409.04,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 76.24,
+      "gst_on_fee": 13.72,
+      "linked_order_id": "ORD1078"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031ML",
+        "utr": "UTR000008GCUL",
+        "settled_amount": 7409.04,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 76.24,
+        "gst_on_fee": 13.72,
+        "linked_order_id": "ORD1078"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031MU",
+        "utr": "UTR000008GCUU",
+        "settled_amount": 7370.34,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 109.03,
+        "gst_on_fee": 19.63,
+        "linked_order_id": "ORD1087"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1079",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1288.97, actual ₹1288.97, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MM"
+    ],
+    "selectedPaymentId": "pay_00031MM",
+    "selectedUtr": "UTR000008GCUM",
+    "expectedSettlement": 1288.97,
+    "actualSettlement": 1288.97,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1079",
+      "amount": 1299,
+      "order_date": "2026-08-05",
+      "customer_name": "Ananya Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MM",
+      "utr": "UTR000008GCUM",
+      "settled_amount": 1288.97,
+      "settlement_date": "2026-08-06",
+      "fee_deducted": 8.5,
+      "gst_on_fee": 1.53,
+      "linked_order_id": "ORD1079"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MM",
+        "utr": "UTR000008GCUM",
+        "settled_amount": 1288.97,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 8.5,
+        "gst_on_fee": 1.53,
+        "linked_order_id": "ORD1079"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1080",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1276.05, actual ₹1276.05, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MN",
+      "pay_00031MK"
+    ],
+    "selectedPaymentId": "pay_00031MN",
+    "selectedUtr": "UTR000008GCUN",
+    "expectedSettlement": 1276.05,
+    "actualSettlement": 1276.05,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1080",
+      "amount": 1299,
+      "order_date": "2026-08-12",
+      "customer_name": "Ananya Iyer",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MN",
+      "utr": "UTR000008GCUN",
+      "settled_amount": 1276.05,
+      "settlement_date": "2026-08-14",
+      "fee_deducted": 19.45,
+      "gst_on_fee": 3.5,
+      "linked_order_id": "ORD1080"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MN",
+        "utr": "UTR000008GCUN",
+        "settled_amount": 1276.05,
+        "settlement_date": "2026-08-14",
+        "fee_deducted": 19.45,
+        "gst_on_fee": 3.5,
+        "linked_order_id": "ORD1080"
+      },
+      {
+        "payment_id": "pay_00031MK",
+        "utr": "UTR000008GCUK",
+        "settled_amount": 1285.63,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 11.33,
+        "gst_on_fee": 2.04,
+        "linked_order_id": "ORD1077"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1081",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1289.61, actual ₹1289.61, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MO",
+      "pay_00031M4"
+    ],
+    "selectedPaymentId": "pay_00031MO",
+    "selectedUtr": "UTR000008GCUO",
+    "expectedSettlement": 1289.61,
+    "actualSettlement": 1289.61,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1081",
+      "amount": 1299,
+      "order_date": "2026-08-07",
+      "customer_name": "Riya Patel",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MO",
+      "utr": "UTR000008GCUO",
+      "settled_amount": 1289.61,
+      "settlement_date": "2026-08-11",
+      "fee_deducted": 7.96,
+      "gst_on_fee": 1.43,
+      "linked_order_id": "ORD1081"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MO",
+        "utr": "UTR000008GCUO",
+        "settled_amount": 1289.61,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 7.96,
+        "gst_on_fee": 1.43,
+        "linked_order_id": "ORD1081"
+      },
+      {
+        "payment_id": "pay_00031M4",
+        "utr": "UTR000008GCU4",
+        "settled_amount": 1281.34,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 14.97,
+        "gst_on_fee": 2.69,
+        "linked_order_id": "ORD1061"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1082",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹495.67, actual ₹495.67, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MP",
+      "pay_00031N6"
+    ],
+    "selectedPaymentId": "pay_00031MP",
+    "selectedUtr": "UTR000008GCUP",
+    "expectedSettlement": 495.67,
+    "actualSettlement": 495.67,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1082",
+      "amount": 499,
+      "order_date": "2026-08-01",
+      "customer_name": "Saanvi Nair",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MP",
+      "utr": "UTR000008GCUP",
+      "settled_amount": 495.67,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 2.82,
+      "gst_on_fee": 0.51,
+      "linked_order_id": "ORD1082"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MP",
+        "utr": "UTR000008GCUP",
+        "settled_amount": 495.67,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 2.82,
+        "gst_on_fee": 0.51,
+        "linked_order_id": "ORD1082"
+      },
+      {
+        "payment_id": "pay_00031N6",
+        "utr": "UTR000008GCV6",
+        "settled_amount": 494.29,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 3.99,
+        "gst_on_fee": 0.72,
+        "linked_order_id": "ORD1099"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1083",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIP is associated with multiple orders: ORD1083, ORD1086. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MQ"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIP",
+    "expectedSettlement": null,
+    "actualSettlement": 790.35,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1083",
+      "amount": 799,
+      "order_date": "2026-08-05",
+      "customer_name": "Ira Gupta",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MQ",
+        "utr": "UTR00000SAIP",
+        "settled_amount": 790.35,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 7.33,
+        "gst_on_fee": 1.32,
+        "linked_order_id": "ORD1083"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1084",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹293.13, actual ₹293.13, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MR",
+      "pay_00031LP"
+    ],
+    "selectedPaymentId": "pay_00031MR",
+    "selectedUtr": "UTR000008GCUR",
+    "expectedSettlement": 293.13,
+    "actualSettlement": 293.13,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1084",
+      "amount": 299,
+      "order_date": "2026-08-11",
+      "customer_name": "Vivaan Sharma",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MR",
+      "utr": "UTR000008GCUR",
+      "settled_amount": 293.13,
+      "settlement_date": "2026-08-13",
+      "fee_deducted": 5.87,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1084"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MR",
+        "utr": "UTR000008GCUR",
+        "settled_amount": 293.13,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 5.87,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1084"
+      },
+      {
+        "payment_id": "pay_00031LP",
+        "utr": "UTR000008GCTP",
+        "settled_amount": 114.59,
+        "settlement_date": "2026-08-13",
+        "fee_deducted": 4.41,
+        "gst_on_fee": 0,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1085",
+    "status": "NO_SETTLEMENT_FOUND",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "No settlement found for ORD1085. Order amount: ₹499.00. Expected settlement could not be calculated without a credible fee record. Searched settlement window: 2026-08-17–2026-08-21. 0 candidate row(s) considered; no unused candidate satisfied a deterministic rule.",
+    "candidateIds": [],
+    "selectedPaymentId": null,
+    "selectedUtr": null,
+    "expectedSettlement": null,
+    "actualSettlement": null,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND",
+      "NO_SETTLEMENT_FOUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1085",
+      "amount": 499,
+      "order_date": "2026-08-15",
+      "customer_name": "Saanvi Malhotra",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": []
+  },
+  {
+    "orderId": "ORD1086",
+    "status": "DUPLICATE_REFERENCE",
+    "reconciled": false,
+    "confidence": "LOW",
+    "reason": "UTR UTR00000SAIP is associated with multiple orders: ORD1083, ORD1086. No settlement row was selected.",
+    "candidateIds": [
+      "pay_00031MT",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": null,
+    "selectedUtr": "UTR00000SAIP",
+    "expectedSettlement": null,
+    "actualSettlement": 7462.86,
+    "amountDifference": null,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": null,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1086",
+      "amount": 7499,
+      "order_date": "2026-08-15",
+      "customer_name": "Kabir Joshi",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": null,
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MT",
+        "utr": "UTR00000SAIP",
+        "settled_amount": 7462.86,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 30.63,
+        "gst_on_fee": 5.51,
+        "linked_order_id": "ORD1086"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1087",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹7370.34, actual ₹7370.34, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MU",
+      "pay_00031M3",
+      "pay_00031KJ",
+      "pay_00031LK"
+    ],
+    "selectedPaymentId": "pay_00031MU",
+    "selectedUtr": "UTR000008GCUU",
+    "expectedSettlement": 7370.34,
+    "actualSettlement": 7370.34,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1087",
+      "amount": 7499,
+      "order_date": "2026-08-05",
+      "customer_name": "Diya Sharma",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MU",
+      "utr": "UTR000008GCUU",
+      "settled_amount": 7370.34,
+      "settlement_date": "2026-08-07",
+      "fee_deducted": 109.03,
+      "gst_on_fee": 19.63,
+      "linked_order_id": "ORD1087"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MU",
+        "utr": "UTR000008GCUU",
+        "settled_amount": 7370.34,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 109.03,
+        "gst_on_fee": 19.63,
+        "linked_order_id": "ORD1087"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031KJ",
+        "utr": "UTR00000SAIO",
+        "settled_amount": 7438.48,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 51.29,
+        "gst_on_fee": 9.23,
+        "linked_order_id": "ORD1004"
+      },
+      {
+        "payment_id": "pay_00031LK",
+        "utr": "UTR000008GCTK",
+        "settled_amount": 7393.84,
+        "settlement_date": "2026-08-06",
+        "fee_deducted": 89.12,
+        "gst_on_fee": 16.04,
+        "linked_order_id": "ORD1041"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1088",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹489.78, actual ₹489.78, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MV"
+    ],
+    "selectedPaymentId": "pay_00031MV",
+    "selectedUtr": "UTR000008GCUV",
+    "expectedSettlement": 489.78,
+    "actualSettlement": 489.78,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1088",
+      "amount": 499,
+      "order_date": "2026-08-15",
+      "customer_name": "Saanvi Sharma",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MV",
+      "utr": "UTR000008GCUV",
+      "settled_amount": 489.78,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 9.22,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1088"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MV",
+        "utr": "UTR000008GCUV",
+        "settled_amount": 489.78,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 9.22,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1088"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1089",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹1288.77, actual ₹1289.91, wider-tolerance difference ₹1.14.",
+    "candidateIds": [
+      "pay_00031MW"
+    ],
+    "selectedPaymentId": "pay_00031MW",
+    "selectedUtr": "UTR000008GCUW",
+    "expectedSettlement": 1288.77,
+    "actualSettlement": 1289.91,
+    "amountDifference": 1.14,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1089",
+      "amount": 1299,
+      "order_date": "2026-08-06",
+      "customer_name": "Rohan Malhotra",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MW",
+      "utr": "UTR000008GCUW",
+      "settled_amount": 1289.91,
+      "settlement_date": "2026-08-07",
+      "fee_deducted": 8.67,
+      "gst_on_fee": 1.56,
+      "linked_order_id": "ORD1089"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MW",
+        "utr": "UTR000008GCUW",
+        "settled_amount": 1289.91,
+        "settlement_date": "2026-08-07",
+        "fee_deducted": 8.67,
+        "gst_on_fee": 1.56,
+        "linked_order_id": "ORD1089"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1090",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹294.53, actual ₹294.53, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031MX",
+      "pay_00031LE"
+    ],
+    "selectedPaymentId": "pay_00031MX",
+    "selectedUtr": "UTR000008GCUX",
+    "expectedSettlement": 294.53,
+    "actualSettlement": 294.53,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1090",
+      "amount": 299,
+      "order_date": "2026-08-08",
+      "customer_name": "Ira Malhotra",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MX",
+      "utr": "UTR000008GCUX",
+      "settled_amount": 294.53,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 3.79,
+      "gst_on_fee": 0.68,
+      "linked_order_id": "ORD1090"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MX",
+        "utr": "UTR000008GCUX",
+        "settled_amount": 294.53,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 3.79,
+        "gst_on_fee": 0.68,
+        "linked_order_id": "ORD1090"
+      },
+      {
+        "payment_id": "pay_00031LE",
+        "utr": "UTR000008GCTE",
+        "settled_amount": 295.5,
+        "settlement_date": "2026-08-11",
+        "fee_deducted": 2.97,
+        "gst_on_fee": 0.53,
+        "linked_order_id": "ORD1035"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1091",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹990.23, actual ₹990.23, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031MY"
+    ],
+    "selectedPaymentId": "pay_00031MY",
+    "selectedUtr": "UTR000008GCUY",
+    "expectedSettlement": 990.23,
+    "actualSettlement": 990.23,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1091",
+      "amount": 999,
+      "order_date": "2026-08-14",
+      "customer_name": "Kabir Kapoor",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MY",
+      "utr": "UTR000008GCUY",
+      "settled_amount": 990.23,
+      "settlement_date": "2026-08-18",
+      "fee_deducted": 7.43,
+      "gst_on_fee": 1.34,
+      "linked_order_id": ""
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MY",
+        "utr": "UTR000008GCUY",
+        "settled_amount": 990.23,
+        "settlement_date": "2026-08-18",
+        "fee_deducted": 7.43,
+        "gst_on_fee": 1.34,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1092",
+    "status": "FEE_ADJUSTED_MATCH",
+    "reconciled": true,
+    "confidence": "MEDIUM",
+    "reason": "Expected ₹7434.90, actual ₹7433.48, wider-tolerance difference ₹1.42.",
+    "candidateIds": [
+      "pay_00031MZ",
+      "pay_00031M3"
+    ],
+    "selectedPaymentId": "pay_00031MZ",
+    "selectedUtr": "UTR000008GCUZ",
+    "expectedSettlement": 7434.9,
+    "actualSettlement": 7433.48,
+    "amountDifference": -1.42,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1092",
+      "amount": 7499,
+      "order_date": "2026-08-14",
+      "customer_name": "Ananya Joshi",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031MZ",
+      "utr": "UTR000008GCUZ",
+      "settled_amount": 7433.48,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 54.32,
+      "gst_on_fee": 9.78,
+      "linked_order_id": "ORD1092"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031MZ",
+        "utr": "UTR000008GCUZ",
+        "settled_amount": 7433.48,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 54.32,
+        "gst_on_fee": 9.78,
+        "linked_order_id": "ORD1092"
+      },
+      {
+        "payment_id": "pay_00031M3",
+        "utr": "UTR000008GCU3",
+        "settled_amount": 7427.43,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 60.65,
+        "gst_on_fee": 10.92,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1093",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹793.63, actual ₹793.63, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031N0",
+      "pay_00031MD"
+    ],
+    "selectedPaymentId": "pay_00031N0",
+    "selectedUtr": "UTR000008GCV0",
+    "expectedSettlement": 793.63,
+    "actualSettlement": 793.63,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1093",
+      "amount": 799,
+      "order_date": "2026-08-13",
+      "customer_name": "Riya Nair",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N0",
+      "utr": "UTR000008GCV0",
+      "settled_amount": 793.63,
+      "settlement_date": "2026-08-14",
+      "fee_deducted": 4.55,
+      "gst_on_fee": 0.82,
+      "linked_order_id": "ORD1093"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N0",
+        "utr": "UTR000008GCV0",
+        "settled_amount": 793.63,
+        "settlement_date": "2026-08-14",
+        "fee_deducted": 4.55,
+        "gst_on_fee": 0.82,
+        "linked_order_id": "ORD1093"
+      },
+      {
+        "payment_id": "pay_00031MD",
+        "utr": "UTR000008GCUD",
+        "settled_amount": 796.51,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 2.11,
+        "gst_on_fee": 0.38,
+        "linked_order_id": "ORD1070"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1094",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1577.34, actual ₹1577.34, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031N1"
+    ],
+    "selectedPaymentId": "pay_00031N1",
+    "selectedUtr": "UTR000008GCV1",
+    "expectedSettlement": 1577.34,
+    "actualSettlement": 1577.34,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1094",
+      "amount": 1599,
+      "order_date": "2026-08-02",
+      "customer_name": "Riya Kapoor",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N1",
+      "utr": "UTR000008GCV1",
+      "settled_amount": 1577.34,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 18.36,
+      "gst_on_fee": 3.3,
+      "linked_order_id": "ORD1094"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N1",
+        "utr": "UTR000008GCV1",
+        "settled_amount": 1577.34,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 18.36,
+        "gst_on_fee": 3.3,
+        "linked_order_id": "ORD1094"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1095",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1582.01, actual ₹1582.01, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031N2"
+    ],
+    "selectedPaymentId": "pay_00031N2",
+    "selectedUtr": "UTR000008GCV2",
+    "expectedSettlement": 1582.01,
+    "actualSettlement": 1582.01,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1095",
+      "amount": 1599,
+      "order_date": "2026-08-04",
+      "customer_name": "Ananya Kapoor",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N2",
+      "utr": "UTR000008GCV2",
+      "settled_amount": 1582.01,
+      "settlement_date": "2026-08-05",
+      "fee_deducted": 14.4,
+      "gst_on_fee": 2.59,
+      "linked_order_id": "ORD1095"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N2",
+        "utr": "UTR000008GCV2",
+        "settled_amount": 1582.01,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 14.4,
+        "gst_on_fee": 2.59,
+        "linked_order_id": "ORD1095"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1096",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹9822.42, actual ₹9822.42, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031N3",
+      "pay_00031MH",
+      "pay_00031L5"
+    ],
+    "selectedPaymentId": "pay_00031N3",
+    "selectedUtr": "UTR000008GCV3",
+    "expectedSettlement": 9822.42,
+    "actualSettlement": 9822.42,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1096",
+      "amount": 9999,
+      "order_date": "2026-08-20",
+      "customer_name": "Rohan Sharma",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N3",
+      "utr": "UTR000008GCV3",
+      "settled_amount": 9822.42,
+      "settlement_date": "2026-08-24",
+      "fee_deducted": 149.64,
+      "gst_on_fee": 26.94,
+      "linked_order_id": "ORD1096"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N3",
+        "utr": "UTR000008GCV3",
+        "settled_amount": 9822.42,
+        "settlement_date": "2026-08-24",
+        "fee_deducted": 149.64,
+        "gst_on_fee": 26.94,
+        "linked_order_id": "ORD1096"
+      },
+      {
+        "payment_id": "pay_00031MH",
+        "utr": "UTR000008GCUH",
+        "settled_amount": 9813.36,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 157.32,
+        "gst_on_fee": 28.32,
+        "linked_order_id": ""
+      },
+      {
+        "payment_id": "pay_00031L5",
+        "utr": "UTR000008GCT5",
+        "settled_amount": 9861.2,
+        "settlement_date": "2026-08-24",
+        "fee_deducted": 116.78,
+        "gst_on_fee": 21.02,
+        "linked_order_id": "ORD1026"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1097",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1571.51, actual ₹1571.51, difference ₹0.00, lag 1 working day(s).",
+    "candidateIds": [
+      "pay_00031N4",
+      "pay_00031KG"
+    ],
+    "selectedPaymentId": "pay_00031N4",
+    "selectedUtr": "UTR000008GCV4",
+    "expectedSettlement": 1571.51,
+    "actualSettlement": 1571.51,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1097",
+      "amount": 1599,
+      "order_date": "2026-08-08",
+      "customer_name": "Arjun Iyer",
+      "payment_mode": "NETBANKING"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N4",
+      "utr": "UTR000008GCV4",
+      "settled_amount": 1571.51,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 23.3,
+      "gst_on_fee": 4.19,
+      "linked_order_id": "ORD1097"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N4",
+        "utr": "UTR000008GCV4",
+        "settled_amount": 1571.51,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 23.3,
+        "gst_on_fee": 4.19,
+        "linked_order_id": "ORD1097"
+      },
+      {
+        "payment_id": "pay_00031KG",
+        "utr": "UTR000008GCSG",
+        "settled_amount": 1576.18,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 19.34,
+        "gst_on_fee": 3.48,
+        "linked_order_id": "ORD1001"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1098",
+    "status": "POSSIBLE_REFUND",
+    "reconciled": false,
+    "confidence": "MEDIUM",
+    "reason": "Possible refund / unexplained settlement shortfall: expected ₹3446.57, actual ₹3386.57, shortfall ₹60.00.",
+    "candidateIds": [
+      "pay_00031N5",
+      "pay_00031L8"
+    ],
+    "selectedPaymentId": "pay_00031N5",
+    "selectedUtr": "UTR000008GCV5",
+    "expectedSettlement": 3446.57,
+    "actualSettlement": 3386.57,
+    "amountDifference": -60,
+    "unexplainedShortfall": 60,
+    "settlementLagWorkingDays": 1,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH",
+      "FEE_ADJUSTED_MATCH",
+      "DELAYED_SETTLEMENT",
+      "POSSIBLE_REFUND"
+    ],
+    "llm_explanation": null,
+    "llm_status": "UNAVAILABLE",
+    "llm_error_code": "MISSING_CONFIGURATION",
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1098",
+      "amount": 3499,
+      "order_date": "2026-08-07",
+      "customer_name": "Meera Iyer",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N5",
+      "utr": "UTR000008GCV5",
+      "settled_amount": 3386.57,
+      "settlement_date": "2026-08-10",
+      "fee_deducted": 44.43,
+      "gst_on_fee": 8,
+      "linked_order_id": "ORD1098"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N5",
+        "utr": "UTR000008GCV5",
+        "settled_amount": 3386.57,
+        "settlement_date": "2026-08-10",
+        "fee_deducted": 44.43,
+        "gst_on_fee": 8,
+        "linked_order_id": "ORD1098"
+      },
+      {
+        "payment_id": "pay_00031L8",
+        "utr": "UTR000008GCT8",
+        "settled_amount": 3455.86,
+        "settlement_date": "2026-08-05",
+        "fee_deducted": 36.56,
+        "gst_on_fee": 6.58,
+        "linked_order_id": ""
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1099",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹494.29, actual ₹494.29, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031N6",
+      "pay_00031MP"
+    ],
+    "selectedPaymentId": "pay_00031N6",
+    "selectedUtr": "UTR000008GCV6",
+    "expectedSettlement": 494.29,
+    "actualSettlement": 494.29,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1099",
+      "amount": 499,
+      "order_date": "2026-08-01",
+      "customer_name": "Saanvi Sharma",
+      "payment_mode": "UPI"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N6",
+      "utr": "UTR000008GCV6",
+      "settled_amount": 494.29,
+      "settlement_date": "2026-08-04",
+      "fee_deducted": 3.99,
+      "gst_on_fee": 0.72,
+      "linked_order_id": "ORD1099"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N6",
+        "utr": "UTR000008GCV6",
+        "settled_amount": 494.29,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 3.99,
+        "gst_on_fee": 0.72,
+        "linked_order_id": "ORD1099"
+      },
+      {
+        "payment_id": "pay_00031MP",
+        "utr": "UTR000008GCUP",
+        "settled_amount": 495.67,
+        "settlement_date": "2026-08-04",
+        "fee_deducted": 2.82,
+        "gst_on_fee": 0.51,
+        "linked_order_id": "ORD1082"
+      }
+    ]
+  },
+  {
+    "orderId": "ORD1100",
+    "status": "EXACT_MATCH",
+    "reconciled": true,
+    "confidence": "HIGH",
+    "reason": "Expected ₹1274.67, actual ₹1274.67, difference ₹0.00, lag 2 working day(s).",
+    "candidateIds": [
+      "pay_00031N7"
+    ],
+    "selectedPaymentId": "pay_00031N7",
+    "selectedUtr": "UTR000008GCV7",
+    "expectedSettlement": 1274.67,
+    "actualSettlement": 1274.67,
+    "amountDifference": 0,
+    "unexplainedShortfall": null,
+    "settlementLagWorkingDays": 2,
+    "rulesEvaluated": [
+      "DUPLICATE_CHECK",
+      "CANDIDATE_DISCOVERY",
+      "EXACT_MATCH"
+    ],
+    "llm_explanation": null,
+    "llm_status": "NOT_REQUIRED",
+    "llm_error_code": null,
+    "llm_time_ms": 0,
+    "order": {
+      "order_id": "ORD1100",
+      "amount": 1299,
+      "order_date": "2026-08-13",
+      "customer_name": "Meera Reddy",
+      "payment_mode": "CARD"
+    },
+    "selectedSettlement": {
+      "payment_id": "pay_00031N7",
+      "utr": "UTR000008GCV7",
+      "settled_amount": 1274.67,
+      "settlement_date": "2026-08-17",
+      "fee_deducted": 24.33,
+      "gst_on_fee": 0,
+      "linked_order_id": "ORD1100"
+    },
+    "candidateSettlements": [
+      {
+        "payment_id": "pay_00031N7",
+        "utr": "UTR000008GCV7",
+        "settled_amount": 1274.67,
+        "settlement_date": "2026-08-17",
+        "fee_deducted": 24.33,
+        "gst_on_fee": 0,
+        "linked_order_id": "ORD1100"
+      }
+    ]
+  }
+]

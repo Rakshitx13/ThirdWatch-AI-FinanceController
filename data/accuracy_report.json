@@ -1,0 +1,61 @@
+{
+  "total_records": 100,
+  "correct_classifications": 100,
+  "overall_classification_accuracy": 100,
+  "match_precision": 100,
+  "match_recall": 100,
+  "true_positive_matches": 86,
+  "true_negative_exceptions": 14,
+  "false_matches": 0,
+  "false_exceptions": 0,
+  "per_category": {
+    "EXACT_MATCH": {
+      "support": 70,
+      "true_positives": 70,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    },
+    "FEE_ADJUSTED_MATCH": {
+      "support": 12,
+      "true_positives": 12,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    },
+    "POSSIBLE_REFUND": {
+      "support": 6,
+      "true_positives": 6,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    },
+    "NO_SETTLEMENT_FOUND": {
+      "support": 4,
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    },
+    "DUPLICATE_REFERENCE": {
+      "support": 4,
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    },
+    "DELAYED_SETTLEMENT": {
+      "support": 4,
+      "true_positives": 4,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "precision": 100,
+      "recall": 100
+    }
+  }
+}

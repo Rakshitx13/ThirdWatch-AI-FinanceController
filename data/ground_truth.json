@@ -1,0 +1,824 @@
+{
+  "ORD1001": {
+    "ground_truth": "DELAYED_SETTLEMENT",
+    "expected_settlement": 1576.18,
+    "payment_id": "pay_00031KG",
+    "metadata": {
+      "settlement_lag_working_days": 5
+    }
+  },
+  "ORD1002": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1287.94,
+    "payment_id": "pay_00031KH",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1003": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 4939.45,
+    "payment_id": "pay_00031KI",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1004": {
+    "ground_truth": "DUPLICATE_REFERENCE",
+    "expected_settlement": 7438.48,
+    "payment_id": "pay_00031KJ",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "duplicate_utr": "UTR00000SAIO"
+    }
+  },
+  "ORD1005": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 3481.84,
+    "payment_id": "pay_00031KK",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": 3.29
+    }
+  },
+  "ORD1006": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 495.61,
+    "payment_id": "pay_00031KL",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1007": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1278.07,
+    "payment_id": "pay_00031KM",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1008": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 795.08,
+    "payment_id": "pay_00031KN",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1009": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 994.22,
+    "payment_id": "pay_00031KO",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1010": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 3442.54,
+    "payment_id": "pay_00031KP",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1011": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 7392.07,
+    "payment_id": "pay_00031KQ",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "refund_shortfall": 300
+    }
+  },
+  "ORD1012": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 1588.26,
+    "payment_id": "pay_00031KR",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": -3.03
+    }
+  },
+  "ORD1013": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 4919.2,
+    "payment_id": "pay_00031KS",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "refund_shortfall": 210
+    }
+  },
+  "ORD1014": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7425.62,
+    "payment_id": "pay_00031KT",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1015": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1284.18,
+    "payment_id": "pay_00031KU",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1016": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 3479.67,
+    "payment_id": "pay_00031KV",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1017": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 3456.98,
+    "payment_id": "pay_00031KW",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": 2.88
+    }
+  },
+  "ORD1018": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1590.5,
+    "payment_id": "pay_00031KX",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1019": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2441.7,
+    "payment_id": "pay_00031KY",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1020": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1577.08,
+    "payment_id": "pay_00031KZ",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1021": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 1979.01,
+    "payment_id": "pay_00031L0",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": 4.22
+    }
+  },
+  "ORD1022": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 791.88,
+    "payment_id": "pay_00031L1",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1023": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9895.79,
+    "payment_id": "pay_00031L2",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1024": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9829.65,
+    "payment_id": "pay_00031L3",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1025": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 4953.84,
+    "payment_id": "pay_00031L4",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1026": {
+    "ground_truth": "DELAYED_SETTLEMENT",
+    "expected_settlement": 9861.2,
+    "payment_id": "pay_00031L5",
+    "metadata": {
+      "settlement_lag_working_days": 5
+    }
+  },
+  "ORD1027": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7441.51,
+    "payment_id": "pay_00031L6",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1028": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 7411.69,
+    "payment_id": "pay_00031L7",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "refund_shortfall": 340
+    }
+  },
+  "ORD1029": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 3455.86,
+    "payment_id": "pay_00031L8",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1030": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 1577.95,
+    "payment_id": "pay_00031L9",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "refund_shortfall": 280
+    }
+  },
+  "ORD1031": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 790.72,
+    "payment_id": "pay_00031LA",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1032": {
+    "ground_truth": "DELAYED_SETTLEMENT",
+    "expected_settlement": 296.46,
+    "payment_id": "pay_00031LB",
+    "metadata": {
+      "settlement_lag_working_days": 5
+    }
+  },
+  "ORD1033": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1291.97,
+    "payment_id": "pay_00031LC",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1034": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1965.24,
+    "payment_id": "pay_00031LD",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1035": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 295.5,
+    "payment_id": "pay_00031LE",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1036": {
+    "ground_truth": "NO_SETTLEMENT_FOUND",
+    "expected_settlement": 1281.13,
+    "payment_id": null,
+    "metadata": {
+      "settlement_lag_working_days": null
+    }
+  },
+  "ORD1037": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 787,
+    "payment_id": "pay_00031LG",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1038": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 4907.44,
+    "payment_id": "pay_00031LH",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": -1.83
+    }
+  },
+  "ORD1039": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 795.19,
+    "payment_id": "pay_00031LI",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": 3.09
+    }
+  },
+  "ORD1040": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 296.09,
+    "payment_id": "pay_00031LJ",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": -4.05
+    }
+  },
+  "ORD1041": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7393.84,
+    "payment_id": "pay_00031LK",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1042": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 492.4,
+    "payment_id": "pay_00031LL",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1043": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 493.01,
+    "payment_id": "pay_00031LM",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1044": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1589.14,
+    "payment_id": "pay_00031LN",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1045": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1979.6,
+    "payment_id": "pay_00031LO",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1046": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 294.59,
+    "payment_id": "pay_00031LP",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "refund_shortfall": 180
+    }
+  },
+  "ORD1047": {
+    "ground_truth": "NO_SETTLEMENT_FOUND",
+    "expected_settlement": 3466.21,
+    "payment_id": null,
+    "metadata": {
+      "settlement_lag_working_days": null
+    }
+  },
+  "ORD1048": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9965.46,
+    "payment_id": "pay_00031LR",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1049": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1573.49,
+    "payment_id": "pay_00031LS",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1050": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1587.39,
+    "payment_id": "pay_00031LT",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1051": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2455.74,
+    "payment_id": "pay_00031LU",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1052": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 4962.53,
+    "payment_id": "pay_00031LV",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1053": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 4955.25,
+    "payment_id": "pay_00031LW",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1054": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1281.82,
+    "payment_id": "pay_00031LX",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1055": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9800.29,
+    "payment_id": "pay_00031LY",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1056": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2465.64,
+    "payment_id": "pay_00031LZ",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1057": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1972.01,
+    "payment_id": "pay_00031M0",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1058": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2455.46,
+    "payment_id": "pay_00031M1",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1059": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 3425.85,
+    "payment_id": "pay_00031M2",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": 1.25
+    }
+  },
+  "ORD1060": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7427.43,
+    "payment_id": "pay_00031M3",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1061": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1281.34,
+    "payment_id": "pay_00031M4",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1062": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2472.13,
+    "payment_id": "pay_00031M5",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1063": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 490.5,
+    "payment_id": "pay_00031M6",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1064": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 1281.55,
+    "payment_id": "pay_00031M7",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "adjustment_amount": -3.04
+    }
+  },
+  "ORD1065": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 789.74,
+    "payment_id": "pay_00031M8",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1066": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 2456.37,
+    "payment_id": "pay_00031M9",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1067": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1291.53,
+    "payment_id": "pay_00031MA",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1068": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1586.63,
+    "payment_id": "pay_00031MB",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1069": {
+    "ground_truth": "DUPLICATE_REFERENCE",
+    "expected_settlement": 7352.08,
+    "payment_id": "pay_00031MC",
+    "metadata": {
+      "settlement_lag_working_days": 2,
+      "duplicate_utr": "UTR00000SAIO"
+    }
+  },
+  "ORD1070": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 796.51,
+    "payment_id": "pay_00031MD",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1071": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 989.78,
+    "payment_id": "pay_00031ME",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1072": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 2445.45,
+    "payment_id": "pay_00031MF",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": -1.81
+    }
+  },
+  "ORD1073": {
+    "ground_truth": "DELAYED_SETTLEMENT",
+    "expected_settlement": 7396.23,
+    "payment_id": "pay_00031MG",
+    "metadata": {
+      "settlement_lag_working_days": 4
+    }
+  },
+  "ORD1074": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9813.36,
+    "payment_id": "pay_00031MH",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1075": {
+    "ground_truth": "NO_SETTLEMENT_FOUND",
+    "expected_settlement": 7412.09,
+    "payment_id": null,
+    "metadata": {
+      "settlement_lag_working_days": null
+    }
+  },
+  "ORD1076": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1985.13,
+    "payment_id": "pay_00031MJ",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1077": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1285.63,
+    "payment_id": "pay_00031MK",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1078": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7409.04,
+    "payment_id": "pay_00031ML",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1079": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1288.97,
+    "payment_id": "pay_00031MM",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1080": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1276.05,
+    "payment_id": "pay_00031MN",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1081": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1289.61,
+    "payment_id": "pay_00031MO",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1082": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 495.67,
+    "payment_id": "pay_00031MP",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1083": {
+    "ground_truth": "DUPLICATE_REFERENCE",
+    "expected_settlement": 790.35,
+    "payment_id": "pay_00031MQ",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "duplicate_utr": "UTR00000SAIP"
+    }
+  },
+  "ORD1084": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 293.13,
+    "payment_id": "pay_00031MR",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1085": {
+    "ground_truth": "NO_SETTLEMENT_FOUND",
+    "expected_settlement": 493.76,
+    "payment_id": null,
+    "metadata": {
+      "settlement_lag_working_days": null
+    }
+  },
+  "ORD1086": {
+    "ground_truth": "DUPLICATE_REFERENCE",
+    "expected_settlement": 7462.86,
+    "payment_id": "pay_00031MT",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "duplicate_utr": "UTR00000SAIP"
+    }
+  },
+  "ORD1087": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 7370.34,
+    "payment_id": "pay_00031MU",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1088": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 489.78,
+    "payment_id": "pay_00031MV",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1089": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 1288.77,
+    "payment_id": "pay_00031MW",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": 1.14
+    }
+  },
+  "ORD1090": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 294.53,
+    "payment_id": "pay_00031MX",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1091": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 990.23,
+    "payment_id": "pay_00031MY",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1092": {
+    "ground_truth": "FEE_ADJUSTED_MATCH",
+    "expected_settlement": 7434.9,
+    "payment_id": "pay_00031MZ",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "adjustment_amount": -1.42
+    }
+  },
+  "ORD1093": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 793.63,
+    "payment_id": "pay_00031N0",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1094": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1577.34,
+    "payment_id": "pay_00031N1",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1095": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1582.01,
+    "payment_id": "pay_00031N2",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1096": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 9822.42,
+    "payment_id": "pay_00031N3",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1097": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1571.51,
+    "payment_id": "pay_00031N4",
+    "metadata": {
+      "settlement_lag_working_days": 1
+    }
+  },
+  "ORD1098": {
+    "ground_truth": "POSSIBLE_REFUND",
+    "expected_settlement": 3446.57,
+    "payment_id": "pay_00031N5",
+    "metadata": {
+      "settlement_lag_working_days": 1,
+      "refund_shortfall": 60
+    }
+  },
+  "ORD1099": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 494.29,
+    "payment_id": "pay_00031N6",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  },
+  "ORD1100": {
+    "ground_truth": "EXACT_MATCH",
+    "expected_settlement": 1274.67,
+    "payment_id": "pay_00031N7",
+    "metadata": {
+      "settlement_lag_working_days": 2
+    }
+  }
+}
